@@ -1,8 +1,8 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
 
-}
+} */
 #main {
     display: flex;
     /* justify-content: space-evenly; */
@@ -79,7 +79,7 @@ font-family: FONT-FAMILY
 }
 /* styles for sign-in page */
 #body{
-    border: 1px solid green;
+  
     margin-top: 50px;
     width: 100%;
     height: auto;
@@ -109,7 +109,7 @@ display: inline-block;
 }
 form>input{
     border-style: .5px;
-    border-color:green;
+   
     display:block;
     line-height: 24px;
     font-size: 14px;
@@ -118,6 +118,94 @@ form>input{
     height: 42px;
     border-radius: 3px;
 }
+#checkbox{
+   
+    margin-top: 15px;
+}
+#or{
+    display: flex;
+}
+#or>hr{
+    color: #6a6d75;
+    height: 0.5px;
+    width:150px;
+    margin-top: 15px;
+}
+
+#or>span{
+margin:5px;
+}
+#checkbox>a{
+margin-left: 90px;
+text-decoration: none;
+color: #002684;
+}
+form>button{
+    
+    margin-top: 15px;
+    display: block;
+    border-style: .5px;
+    display:block;
+    line-height: 24px;
+    font-size: 14px;
+    text-align:center;
+    width: 329px;
+    height: 42px;
+    border-radius: 3px;
+}
+#login-btn{
+    background-color: #3f6fb7;
+    color: white;
+}
+#login-btn:hover{
+    background-color:#002684;
+    color: white;
+}
+
+form>button:nth-last-child(1){
+    background-color:#2f63e6;
+    color: white;
+}
+form>button:nth-last-child(1):hover{
+    cursor: pointer;
+    background-color:#2f63e6;
+    color: white;
+}
+form>button:nth-last-child(2){
+    background-color:#1c1c1d;
+    color: white;
+}
+form>button:nth-last-child(2):hover{
+    cursor: pointer;
+    background-color:#1c1c1d;
+    color: white;
+}
+#container-sign-in>p{
+    text-align: center;
+   margin-top:  20px;
+}
+/* Responsive code herer */
+@media screen and (max-width: 700px) {
+
+    #container-sign-in{
+        width: 100%;
+    }    
+    form>input{
+        width: 100%;
+    }
+    form>button{
+        width: 100%;
+    }
+    #or>hr{
+        width: 45%;
+    }
+    #checkbox>a{
+        margin-left: 800px;
+    }
+
+}
+
+/* Responsive code herer */
 
 
 
