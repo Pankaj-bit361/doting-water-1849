@@ -1,0 +1,211 @@
+*{
+    background-color: #f8f9fa;
+    margin: 0px;
+}
+
+#h1frist{
+    margin-top: 50px;
+    text-align: center;
+    FONT-FAMILY:
+    "Chronicle Deck", Times, serif;
+    font-size: 30px;
+    line-height: 36px;
+    color: #303236;
+
+}
+
+p{
+    FONT-FAMILY:"Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #6a6d75;
+    margin: 15px;
+}
+
+#big{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+display: flex;
+height: 670px;
+width: 1080px;
+margin: auto;
+}
+
+#big div{
+   margin: auto;
+   margin-top: 12px;
+}
+
+.big_div_1{
+    border: 1px solid #6a6d75;
+    display: flex;
+    height: 84px;
+    width: 436px;
+    line-height: 0px;
+    border-radius: 5px;
+    
+}
+.big_div_1:hover{
+    border: 2px solid #002684;
+}
+
+.max{
+    text-align: center; 
+    margin-bottom: 32px; 
+    margin-top: 40px; 
+    font-size: 22px; 
+    line-height: 26.4px; 
+    color: #303236;
+}
+
+#pppp{
+    font-family:
+    HelveticaNeue,Helvetica Neue,HelveticaNeueRoman,HelveticaNeue-Roman,Helvetica Neue Roman,TeXGyreHerosRegular,Helvetica,Tahoma,Geneva,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: normal;
+    width: 365px;
+    color: #6a6d75;
+}
+img{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.h1_div{
+    margin-right: 80px;
+}
+
+.h3frist{
+    margin-top: 9px;
+    margin-bottom: 0px;
+    font-family: FONT-FAMILY
+    "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    text-align: left;
+    
+}
+
+.h3frist:hover{
+    color: #002684;
+}
+
+.chcek_p{
+    font-size: 16px;
+    line-height: 16px;
+    width: 300px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+
+
+/* ***********************second big div****************** */
+
+#second-big_div{
+    border: 1px solid #002684;
+    background-color: #002684;
+    margin-top: 50px;
+    height: 900px;
+}
+
+#secondfid{
+    background-color: #002684;
+    font-family:
+    "Cera Pro", Arial, sans-serif;
+    font-size: 36px;
+    line-height: 38.16px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #ffffff;
+    margin-top: 96px;
+}
+
+#secondh1{
+    font-size: 45px;
+    text-align: center;
+    line-height: 54.9px;
+    color: #00a0df;
+    background-color: #002684;
+    margin-bottom: 72px;
+}
+
+#color{
+    background-color: #002684;
+    display: grid;
+    grid-template-columns: 280px 280px 280px;
+    grid-template-rows: 300px;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 71px;
+}
+
+#color div{
+    background-color: #002684;
+}
+
+.six_h4{
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    font-family: "Cera Pro", Arial, sans-serif;
+    background-color: #002684;
+    color: #fff;
+}
+
+.six_p{
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    font-family: "Cera Pro", Arial, sans-serif;
+    background-color: #002684;
+    color: #fff;
+    background-color: #002684;
+color: #fff;
+} 
+
+
+/* *******************************************third big div************************************ */
+
+#third-big_div{
+    height: 415px;
+    background-color: #f5f6f8;
+}
+
+#third-big_div h1:nth-child(1){
+    font-family: ChronicleDeck-Semi;
+    font-size: 30px;
+    line-height: 38.1px;
+    letter-spacing: normal;
+    color: #002684;
+    background-color: #f5f6f8;
+    width: 664px;
+    margin: auto;
+    text-align: center;
+    margin-top: 161px;
+}
+
+hr{
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 42px;
+    width: 200px;
+background-color: #00a0df;
+    height: 2px;
+    border-radius: 360px;
+
+}
+
+p{
+    font-family: HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+   margin: auto;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+letter-spacing: normal;
+color: #002684;
+background-color: #f5f6f8;
+font-weight: 600;
+}
