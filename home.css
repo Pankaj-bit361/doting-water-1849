@@ -1,11 +1,21 @@
+/* header starts */
+/* *{
+    padding:0;
+    margin:0;
+    
+} */
 #main {
     display: flex;
     /* justify-content: space-evenly; */
     width:100%;
-    height:60px
+    height:60px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
-#head>img {
+#head img {
     width: 94px;
     height: 43px;
 
@@ -20,12 +30,13 @@ justify-content: space-around;
 
 }
 
-#head>p {
+#head>a {
     font-size: 14px;
     font-family: FONT-FAMILY
     "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
     line-height: 26px;
     color: #6a6d75;
+    text-decoration: none;
 }
 
 .head-right {
@@ -52,31 +63,50 @@ font-family: FONT-FAMILY
 "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
 }
 
-#append {
-    position: relative;
-    top: -500px;
-    width: 350px;
-    right: -100px;
-    font-size: 20px;
-    color: #002684
-}
 
-#append>button {
+/* header ends */
+ 
+#append {
+    background-image: url("https://media.blueapron.com/assets/registration/homepage/desktop-splash-v2.webp?height=800&quality=90") ;
+     width:1349px;
+  background-size:100% ;
+      height: 600px;
+      display: flex;
+    
+   
+   } 
+   #append5{
+       width: 400px;
+       height: 250px;
+       margin-left:45px;
+       margin-top:160px
+
+   }
+   #append5>h1{
+    font-size:48px;
+    width:388px;
+    color: #002684;
+    font-family: FONT-FAMILY
+    "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+
+   }
+#append5>button {
     width: 208px;
     height: 50px;
     color: white;
     background-color: #002684;
     border-radius: 50px;
     font-size: 18px;
+    border:none;
+    
     font-family: FONT-FAMILY
     "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
 
-}
+} 
 
 #mid2>h1 {
     color: #002684;
     margin-left: 420px;
-    margin-top: -165px;
     font-size: 40px;
 }
 
@@ -203,10 +233,11 @@ font-family: FONT-FAMILY
 #mid6>button {
     width: 260px;
     height: 50px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 46px;
     font-family:FONT-FAMILY
-"Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+
 
     border-radius: 50px 50px 50px 50px;
     color: #002c9b;
@@ -215,12 +246,28 @@ font-family: FONT-FAMILY
     margin: auto;
     display: block;
 }
+#slido{
+background-image: url("https://media.blueapron.com/assets/registration/homepage/cooking-pot.webp?height=600&quality=90");
+width:100%;
+background-size:100% ;
+height: 580px;
+}
+#pan{
+    width:50%;
+    margin:auto;
+padding-top: 8%;
+}
+#pan>img{
+    width:100%
+}
 
 #mid7 {
     width: 868px;
     height: 400px;
     margin: auto;
+  
     padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 #mid7 :nth-child(2) {
@@ -257,34 +304,41 @@ font-family: FONT-FAMILY
     border-radius: 50px 50px 50px 50px;
     margin-left: 345px;
     border: 2px white;
-    margin-top: 70px
+    margin-top: 50px
 }
 
 #mid8 {
-    padding-top: 70px;
-    width: 90%;
-    margin: auto;
+   background-image: url("https://media.blueapron.com/assets/registration/homepage/gnocchi-ingredients.webp?height=400&quality=90");
+   background-size: 100%;
+   width:1200px;
+   height:340px;
+   margin: auto;
+   display: flex;
+  
+   
 }
 
 #mid8>img {
     width: 100%;
+   
 
 }
 
 #mid9 {
     width: 550px;
     height: 218px;
-    position: relative;
-    top: -300px;
-    left: 380px;
+   margin:auto;
+  margin-top:50px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    background-color: white
+    background-color: white;
+   
 }
 
 #mid9 :nth-child(1)>h1 {
     font-size: 32px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 10px;
+    color: #002684;
 }
 
 #mid9 :nth-child(2)>p {
@@ -318,13 +372,16 @@ font-family: FONT-FAMILY
     justify-content: space-around;
     width:90%;
     margin:auto;
-    margin-top:-220px
+  
+   
+  
 }
 #flexing :nth-child(1){
    font-size: 14px; 
    font-family: FONT-FAMILY
    "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
 text-align: center;
+
 
 }
 #flexing1{
@@ -399,9 +456,7 @@ color: #303236;
     margin-top:-3px
 }
 
-/* #flexing5{
-    display: flex;
-} */
+
 
 
 
