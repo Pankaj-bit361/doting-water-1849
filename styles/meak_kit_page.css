@@ -244,8 +244,146 @@ font-family: FONT-FAMILY
     color: white;
     font-weight: bold;
 }
+#btn>button:hover{
+    background-color: #5cbfe6;
+   
+}
+#learn-more{
+    margin: auto;
+    width: 255px;
+    height: 72px ;
+    color: #6a6d75;
+    line-height: 24px;
+    font-size: 14px;
+}
+#learn-more>a{
+    margin-left: 92px;
 
+}
+#blue-container{
+    background-color: #002684;
+    margin-top: 100px;
+    padding-bottom: 175px;
+}
+#blue-container>div{
+    padding-top: 96px;
+    text-align: center;
+}
+#blue-container>div>h3{
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    font-family: cera pro,Arial,sams-serif;
+    line-height: 38.16px;
+    letter-spacing: 5px;
+
+}
+#blue-container>div>h1{
+    text-align: center;
+    color:#00a0df;
+    font-size: 45px;
+    font-family: chronicleDeck;
+    line-height: 54.9px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+
+#grid-3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 70%;
+    margin: auto;
+    gap: 30px;
+    color: white;
+}
+#grid-3>div>h3{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#grid-3>div>p{
+    line-height: 24px;
+    font-size: 18px;
+    font-family: Cera-pro,arial,sans-serif;
+}
+#thoughts{
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-top: 120px;
+    background-color: #f5f6f8;
+}
+#thoughts>div>h1{
+    font-size: 30px;
+    line-height: 38.1px;
+    color:#002684;
+    font-weight: bolder;
+}
+#thoughts>div{
+    margin: auto;
+    width: 60%;
+}
+#thoughts>div>hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 3px;
+    background-color: #00a0df;
+
+}
+#thoughts>div>p{
+    letter-spacing: 2px;
+    color:#002c9b;
+    font-weight: bold;
+}
+#head-faq{
+    text-align: center;
+    color: #303236;
+    font-size: 45px;
+    line-height: 54.9px;
+    font-weight: bolder;
+    padding-top: 100px;
+    font-family:chronicle Ssm,Georgia, 'Times New Roman', Times, serif;
+}
+#faqs{
+    margin: auto;
+    display: flex;
+    width: 80%;
+    height: auto;
+    padding: 24px;
+    justify-content: space-between;
+    font-family: Cera pro,Arial, Helvetica, sans-serif;
+}
+#faqs>div{
+width: 520px
+}
+#faqs>div>p{
+    color: #6a6d75;
+    font-size: 15px;
+    line-height: 25.5px;
+}
+#faqs>div>div>p>a{
+    text-decoration: none;
+    font-weight: bold;
+}
+#faqs>div>div>a{
+    font-weight: bold;
+    text-decoration: none;
+}
+#faq-btn{
+    text-align: center;
+}
+#faq-btn>button{
+    width: 226px;
+    height: 42px;
+    border-radius: 50px;
+    border:2px solid darkblue ;
+    color: #002684;
+    font-weight: bold;
+    background-color: white;
+
+}
 /* main content's css here */
+
 
 
 
