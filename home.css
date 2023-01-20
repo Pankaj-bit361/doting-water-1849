@@ -16,7 +16,7 @@
 }
 
 #head img {
-    width: 94px;
+    width: 100%;
     height: 43px;
 
 }
@@ -24,27 +24,36 @@
 #head {
     display: flex;
  
-   padding-left:60px;
+   
     width:100%;
-justify-content: space-around;
+gap:1%;
+padding-left: 3%;
 
 }
 
 #head>a {
+    
+    text-decoration: none;
+}
+#head >a {
     font-size: 14px;
     font-family: FONT-FAMILY
     "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
     line-height: 26px;
-    color: #6a6d75;
-    text-decoration: none;
+  color: #6a6d75;
+    margin-top:1%;
+    width: 200%;
+}
+#head :nth-child(2){
+    margin-left:2%
 }
 
 .head-right {
     display: flex;
-    gap: 10px;
-    padding-left: 500px;
-    margin-right:100px;
-margin-top:8px;
+    gap: 0.5%;
+    padding-left:40%;
+    margin-right:4%;
+margin-top:0.5%;
 font-family: FONT-FAMILY
 "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
 }
@@ -53,8 +62,8 @@ color:#6a6d75
 }
 .head-right :nth-child(2)>button {
     background-color: #f26226;
-    margin-left: 10px;
- width:103px;
+    margin-left: 10%;
+ width:170%;
     font-size: 14px;
     color: white;
    height:40px;
@@ -68,37 +77,37 @@ font-family: FONT-FAMILY
  
 #append {
     background-image: url("https://media.blueapron.com/assets/registration/homepage/desktop-splash-v2.webp?height=800&quality=90") ;
-     width:1349px;
+     width:100%;
   background-size:100% ;
-      height: 600px;
+      height: 90vh;
       display: flex;
     
    
    } 
    #append5{
-       width: 400px;
+       width: 35%;
        height: 250px;
-       margin-left:45px;
-       margin-top:160px
+      
 
    }
    #append5>h1{
     font-size:48px;
-    width:388px;
+    width:90%;
     color: #002684;
     font-family: FONT-FAMILY
     "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
-
+    margin-left:12%;
+    margin-top:40%
    }
 #append5>button {
-    width: 208px;
+    width: 52%;
     height: 50px;
     color: white;
     background-color: #002684;
     border-radius: 50px;
     font-size: 18px;
     border:none;
-    
+    margin-left:14%;
     font-family: FONT-FAMILY
     "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
 
@@ -106,15 +115,17 @@ font-family: FONT-FAMILY
 
 #mid2>h1 {
     color: #002684;
-    margin-left: 420px;
+    margin-left: 32%;
     font-size: 40px;
+    text-align: center;
+    width:40%
 }
 
 #mid2>p {
     font-size: 20px;
     text-align: center;
-    width: 350px;
-    margin-left: 500px;
+    width: 30%;
+    margin-left: 35%;
     margin-top: -10px;
     color: #303236
 }
@@ -161,7 +172,7 @@ font-family: FONT-FAMILY
 }
 
 #mid4>button {
-    width: 208px;
+    width:15%;
     height: 50px;
     color: white;
     background-color: #002684;
@@ -170,7 +181,7 @@ font-family: FONT-FAMILY
     font-family: FONT-FAMILY
     "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
 
-    margin-left: 570px;
+    margin-left: 42.5%;
 
 }
 
@@ -250,33 +261,34 @@ font-family: FONT-FAMILY
 background-image: url("https://media.blueapron.com/assets/registration/homepage/cooking-pot.webp?height=600&quality=90");
 width:100%;
 background-size:100% ;
-height: 580px;
+height: 80vh;
 }
 #pan{
     width:50%;
     margin:auto;
-padding-top: 8%;
+padding-top: 5%;
 }
 #pan>img{
     width:100%
 }
 
 #mid7 {
-    width: 868px;
-    height: 400px;
+    width: 80%;
+    height: 80vh;
     margin: auto;
-  
-    padding-top: 70px;
-    padding-bottom: 70px;
+  padding-top:2%
 }
-
+#mid7 :nth-child(1)>img{
+    width:100%
+}
 #mid7 :nth-child(2) {
-    margin-top: -350px;
-    margin-left: 400px
+    margin-top: -40%;
+    margin-left: 50%
 }
 
 #mid7 :nth-child(3) {
-    margin-left: 230px;
+    
+    margin-left: 33%;
     font-size: 20px;
     color: white;
     font-family: FONT-FAMILY
@@ -285,8 +297,7 @@ padding-top: 8%;
 }
 
 #mid7 :nth-child(4) {
-
-    margin-left: 150px;
+    margin-left: 25%;
     font-size: 18px;
     color: #002684;
     font-family:FONT-FAMILY
@@ -302,18 +313,20 @@ padding-top: 8%;
     font-size: 15px;
     background-color: white;
     border-radius: 50px 50px 50px 50px;
-    margin-left: 345px;
+    margin-left: 45%;
     border: 2px white;
-    margin-top: 50px
+    margin-top: 2%
 }
 
 #mid8 {
    background-image: url("https://media.blueapron.com/assets/registration/homepage/gnocchi-ingredients.webp?height=400&quality=90");
    background-size: 100%;
-   width:1200px;
-   height:340px;
+   width:90%;
+   margin-top:10%;
+   height:55vh;
    margin: auto;
    display: flex;
+   margin-top:2%
   
    
 }
@@ -325,10 +338,10 @@ padding-top: 8%;
 }
 
 #mid9 {
-    width: 550px;
+    width: 45%;
     height: 218px;
    margin:auto;
-  margin-top:50px;
+  /* margin-top: */
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     background-color: white;
    
@@ -337,7 +350,7 @@ padding-top: 8%;
 #mid9 :nth-child(1)>h1 {
     font-size: 32px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 1px;
     color: #002684;
 }
 
@@ -354,7 +367,7 @@ padding-top: 8%;
 }
 
 #mid9 :nth-child(3)>button {
-    width: 208px;
+    width: 40%;
     height: 50px;
     color: white;
     background-color: #002684;
@@ -368,7 +381,7 @@ padding-top: 8%;
 
 #mid10{
     display: flex;
-    width:1342px;
+    width:100%;
     justify-content: space-around;
     width:90%;
     margin:auto;
