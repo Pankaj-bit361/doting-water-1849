@@ -12,7 +12,7 @@
 }
 
 #head img {
-    width: 94px;
+    width: 100%;
     height: 43px;
 
 }
@@ -20,26 +20,36 @@
 #head {
     display: flex;
  
-   padding-left:60px;
+   
     width:100%;
-justify-content: space-around;
+gap:1%;
+padding-left: 3%;
+
 }
 
 #head>a {
+    
+    text-decoration: none;
+}
+#head >a {
     font-size: 14px;
     font-family: FONT-FAMILY
     "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
     line-height: 26px;
-    color: #6a6d75;
-    text-decoration: none;
+  color: #6a6d75;
+    margin-top:1%;
+    width: 200%;
+}
+#head :nth-child(2){
+    margin-left:2%
 }
 
 .head-right {
     display: flex;
-    gap: 10px;
-    padding-left: 500px;
-    margin-right:100px;
-margin-top:8px;
+    gap: 0.5%;
+    padding-left:40%;
+    margin-right:4%;
+margin-top:0.5%;
 font-family: FONT-FAMILY
 "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
 }
@@ -48,8 +58,8 @@ color:#6a6d75
 }
 .head-right :nth-child(2)>button {
     background-color: #f26226;
-    margin-left: 10px;
- width:103px;
+    margin-left: 10%;
+ width:170%;
     font-size: 14px;
     color: white;
    height:40px;
@@ -57,6 +67,7 @@ border:none;
 font-family: FONT-FAMILY
 "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
 }
+
 
 #mid>h1{
     font-size:58px;
@@ -121,6 +132,9 @@ hr{
  height: 1px;
  background-color: #002c9b;
 }
+
+
+
     #mid3{
         padding-top:50px;
         width:550px;
@@ -206,7 +220,104 @@ margin-left :10px;
     padding-top:20px
 
 }
+#build{
+    display:flex;
+    width:70%;
+    margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
+    border-radius: 10px;
+  
+}
+#build1{
+    display: flex;
+    gap:20%
+}
+#wow{
+    width:500px;
+margin-left:10%
+}
+#wow3{
+    display: flex;
+    margin:auto;
+    
+   
+}
+
+#wow4{
+    display: flex;
+    gap:10%;
+    width:400px
+    
+}
+#wow :nth-child(2){
+    width:75%;
+    color:#6a6d75;
+    font-size: 18px;
+    line-height: 18px;
+}
+#wow :nth-child(1){
+    color:#002684
+}
+#p1{
+    color:black;
+    font-size: 20px;
+}
+#p2{
+    color:black;
+    font-size: 20px;
+}
+#build1>div :nth-child(2){
+    font-size: 14px;
+}
+#wow3{
+    margin-top: 30px;
+    gap:10%
+}
+#wow3 p{
+color:#6a6d75;
+font-size: 16px;
+}
+#wow4 p{
+    color:#6a6d75;
+    font-size: 16px;
+    }
+    #left{
+    
+      width:400px
+    }
+    #b3>button{
+        margin-top:10%;
+width:70px;
+color:blue;
+border: none;
+border-radius: 10px;
+line-height: 20px;
+    }
+    #b2>button{
+        margin-top:6%;
+width:70px;
+color:blue;
+line-height: 20px;
+border: none;
+border-radius: 10px;
+    }
+    
+    #CONT>button{
+        border:none;
+        margin-top:8%;
+        border-radius: 15px;
+        font-size: 14px;
+        color:white;
+        background-color: #00a0df;
+        width:40%;
+        line-height: 30px;
+        margin-left:50%
+    }
+
+    #mid7{
+        padding-top: 5%;
+    }
 #mid6{
    margin-top: 70px;
     font-size: 18px;
@@ -482,23 +593,23 @@ footer{
     display:flex;
    background-color:#0f346c;
    padding-bottom: 100px;
-   margin-top:50px
+   margin-top:5%
 }
 #first{
     display:flex;
     width:70%;
-    gap:100px;
-    margin-left: 80px;
-    padding-top:50px;
+    gap:7%;
+    margin-left: 6.5%;
+    padding-top:3.5%;
     font-size: 14px;
     color:#a1bce6;
     font-family: FONT-FAMILY
     HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
 }
 #second{
-    padding-top: 50px;
+    padding-top: 3.5%;
     color:#a1bce6;
-    margin-left:50px;
+    margin-left:6.5%;
     font-size: 14px;
     text-align: right;
     font-family: FONT-FAMILY
@@ -511,10 +622,10 @@ footer{
     
     }
 #merge{
-    margin-top:-80px;
+    margin-top:-5%;
     font-size:16px;
     line-height: 24px;
-    margin-left:80px;
+    margin-left:6.5%;
     color:white;
     font-family: FONT-FAMILY
     "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
