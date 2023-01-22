@@ -13,33 +13,44 @@
     <!-- header start -->
     <nav id="main">
         <div id="head">
-          <a href="./home.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Blue_Apron_logo.svg/1200px-Blue_Apron_logo.svg.png"
-            alt=""></a>  
+            <a href="./home.html"><img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Blue_Apron_logo.svg/1200px-Blue_Apron_logo.svg.png"
+                    alt=""></a>
 
 
-            <a href="/menu.html"><div>MENU</div></a>
-            <a href="">  <div> PRICING</p></div>
-            <a href=""> <div> WINE</div></a>
-            <a href=""><div> GIFTS</div></a>
-            <a href="">  <div> MARKET</div></a>
-          
-           
-            
-          
-            <div class="head-right">
-                <div>
-                    <p>LOGIN</p>
+            <a href="/menu.html">
+                <div>MENU</div>
+            </a>
+            <a href="">
+                <div> PRICING</p>
                 </div>
-                <div>
-                    <button>SIGN UP</button>
-                </div>
+                <a href="">
+                    <div> WINE</div>
+                </a>
+                <a href="">
+                    <div> GIFTS</div>
+                </a>
+                <a href="">
+                    <div> MARKET</div>
+                </a>
 
-            </div>
+
+
+
+                <div class="head-right">
+                    <div>
+                        <p>LOGIN</p>
+                    </div>
+                    <div>
+                        <button>SIGN UP</button>
+                    </div>
+
+                </div>
 
 
         </div>
     </nav>
-    
+
     <!-- header enders -->
 
     <!-- mid starts -->
@@ -83,7 +94,7 @@
         </div>
         <hr>
 
-          
+
         <p id="mid3">
             Choose from an ever-changing mix of meat, fish, Beyond Meat™, WW™ Recommended, Diabetes Friendly recipes and
             health-conscious offerings.
@@ -101,14 +112,14 @@
 
     <div id="build">
         <div id="wow">
-    
+
             <h1>Build Your Plan</h1>
             <p id="t">You can update your preferences
                 and skip, pause, or cancel at any time.*</p>
             <div id="build1">
-                <div >
+                <div>
                     <h4 id="p1">$11.99
-    
+
                     </h4>
                     <p>SERVING</p>
                 </div>
@@ -116,41 +127,45 @@
                     <h4 id="p2">$9.99</h4>
                     <p>SHIPPING</p>
                 </div>
+            </div>
+
         </div>
-    
-    </div>
-    
-    <div id="left">
-    <div id="wow3">
-        <div><p>Number of servings</p></div>
-    
-        <div id="b3" >
-            <button id="btn-1">2</button>
-            <button id="btn-2"> 4</button>
+
+        <div id="left">
+            <div id="wow3">
+                <div>
+                    <p>Number of servings</p>
+                </div>
+
+                <div id="b3">
+                    <button id="btn-1">2</button>
+                    <button id="btn-2"> 4</button>
+                </div>
+
+            </div>
+            <div id="wow4">
+                <div>
+                    <p>Meals per week</p>
+                </div>
+
+                <div id="b2">
+                    <button id="btn-3">2</button>
+                    <button id="btn-4">3</button>
+                    <button id="btn-5">4</button>
+
+                </div>
+
+            </div>
+            <div ID="CONT">
+                <button>
+                    CONTINUE
+                </button>
+            </div>
+
         </div>
-        
     </div>
-    <div id="wow4">
-        <div><p>Meals per week</p></div>
-    
-        <div id="b2">
-            <button id="btn-3">2</button>
-           <button id="btn-4">3</button>
-          <button id="btn-5">4</button>
-         
-    </div>
-           
-    </div>
-    <div ID="CONT">
-        <button >
-            CONTINUE
-        </button>
-    </div>
-    
-     </div>
-    </div>
-       
-<div id="pagination"></div>
+
+    <div id="pagination"></div>
 
     <div id="mid7">
 
@@ -232,11 +247,8 @@
             <p>Ad Preferences</p>
             <p>Privacy</p>
             <p>Terms</p>
-            <div><img
-                src="./resource/play-store.jpg"
-                alt=""></div>
-        <div><img src="./resource/appstore.png"
-                alt=""></div>
+            <div><img src="./resource/play-store.jpg" alt=""></div>
+            <div><img src="./resource/appstore.png" alt=""></div>
         </div>
 
     </footer>
@@ -252,126 +264,126 @@
     let container4 = document.getElementById("mid14")
     let menu = JSON.parse(localStorage.getItem("menu")) || []
 
-    let button1=document.getElementById("btn-1")
-let button2=document.getElementById("btn-2")
-let button3=document.getElementById("btn-3")
-let button4=document.getElementById("btn-4")
-let button5=document.getElementById("btn-5")
-let price1=document.getElementById("p1")
-let price2=document.getElementById("p2")
+    let button1 = document.getElementById("btn-1")
+    let button2 = document.getElementById("btn-2")
+    let button3 = document.getElementById("btn-3")
+    let button4 = document.getElementById("btn-4")
+    let button5 = document.getElementById("btn-5")
+    let price1 = document.getElementById("p1")
+    let price2 = document.getElementById("p2")
 
-button1.addEventListener("click",()=>{
-    button1.style.color="white"
-    button1.style.backgroundColor="blue"
-    button2.style.color=""
-    button2.style.backgroundColor=""
-    button3.addEventListener("click",()=>{
-        price1.innerText="$11.99"
-        price2.innerText="$9.99";
-        button3.style.color="white"
-        button3.style.backgroundColor="blue";
-        button4.style.color=""
-        button4.style.backgroundColor=""
-        button5.style.color=""
-        button5.style.backgroundColor=""
+    button1.addEventListener("click", () => {
+        button1.style.color = "white"
+        button1.style.backgroundColor = "blue"
+        button2.style.color = ""
+        button2.style.backgroundColor = ""
+        button3.addEventListener("click", () => {
+            price1.innerText = "$11.99"
+            price2.innerText = "$9.99";
+            button3.style.color = "white"
+            button3.style.backgroundColor = "blue";
+            button4.style.color = ""
+            button4.style.backgroundColor = ""
+            button5.style.color = ""
+            button5.style.backgroundColor = ""
+        })
     })
-})
-button1.addEventListener("click",()=>{
-    button1.style.color="white"
-    button1.style.backgroundColor="blue"
-    button2.style.color=""
-    button2.style.backgroundColor=""
-    button4.addEventListener("click",()=>{
-        price1.innerText="$9.99"
-        price2.innerText="$9.99";
-        button4.style.color="white"
-        button4.style.backgroundColor="blue"
-        button3.style.color=""
-        button3.style.backgroundColor=""
-        button5.style.color=""
-        button5.style.backgroundColor=""
+    button1.addEventListener("click", () => {
+        button1.style.color = "white"
+        button1.style.backgroundColor = "blue"
+        button2.style.color = ""
+        button2.style.backgroundColor = ""
+        button4.addEventListener("click", () => {
+            price1.innerText = "$9.99"
+            price2.innerText = "$9.99";
+            button4.style.color = "white"
+            button4.style.backgroundColor = "blue"
+            button3.style.color = ""
+            button3.style.backgroundColor = ""
+            button5.style.color = ""
+            button5.style.backgroundColor = ""
+        })
+
     })
+    button1.addEventListener("click", () => {
+        button1.style.color = "white"
+        button1.style.backgroundColor = "blue"
+        button2.style.color = ""
+        button2.style.backgroundColor = ""
+        button5.addEventListener("click", () => {
+            price1.innerText = "$9.49"
+            price2.innerText = "$9.99";
+            button5.style.color = "white"
+            button5.style.backgroundColor = "blue"
+            button4.style.color = ""
+            button4.style.backgroundColor = ""
+            button3.style.color = ""
+            button3.style.backgroundColor = ""
+        })
 
-})
-button1.addEventListener("click",()=>{
-    button1.style.color="white"
-    button1.style.backgroundColor="blue"
-    button2.style.color=""
-    button2.style.backgroundColor=""
-    button5.addEventListener("click",()=>{
-        price1.innerText="$9.49"
-        price2.innerText="$9.99";
-        button5.style.color="white"
-        button5.style.backgroundColor="blue"
-        button4.style.color=""
-        button4.style.backgroundColor=""
-        button3.style.color=""
-        button3.style.backgroundColor=""
-    })
-
-})
-
-
-
-button2.addEventListener("click",()=>{
-    button2.style.color="white"
-    button2.style.backgroundColor="blue"
-    button1.style.color=""
-    button1.style.backgroundColor=""
-    button3.addEventListener("click",()=>{
-        price1.innerText="$9.49"
-        price2.innerText="$9.99";
-        button3.style.color="white"
-        button3.style.backgroundColor="blue";
-        button4.style.color=""
-        button4.style.backgroundColor=""
-        button5.style.color=""
-        button5.style.backgroundColor=""
-    })
-})
-button2.addEventListener("click",()=>{
-    button2.style.color="white"
-    button2.style.backgroundColor="blue"
-    button1.style.color=""
-    button1.style.backgroundColor=""
-    button4.addEventListener("click",()=>{
-        price1.innerText="$8.49"
-        price2.innerText="$9.99"
-        button4.style.color="white"
-        button4.style.backgroundColor="blue"
-        button3.style.color=""
-        button3.style.backgroundColor=""
-        button5.style.color=""
-        button5.style.backgroundColor=""
     })
 
-})
-button2.addEventListener("click",()=>{
-    button2.style.color="white"
-    button2.style.backgroundColor="blue";
-    button1.style.color=""
-    button1.style.backgroundColor=""
-    button5.addEventListener("click",()=>{
-        price1.innerText="$7.99"
-        price2.innerText="$9.99";
-        button5.style.color="white"
-        button5.style.backgroundColor="blue"
-        button4.style.color=""
-        button4.style.backgroundColor=""
-        button3.style.color=""
-        button3.style.backgroundColor=""
+
+
+    button2.addEventListener("click", () => {
+        button2.style.color = "white"
+        button2.style.backgroundColor = "blue"
+        button1.style.color = ""
+        button1.style.backgroundColor = ""
+        button3.addEventListener("click", () => {
+            price1.innerText = "$9.49"
+            price2.innerText = "$9.99";
+            button3.style.color = "white"
+            button3.style.backgroundColor = "blue";
+            button4.style.color = ""
+            button4.style.backgroundColor = ""
+            button5.style.color = ""
+            button5.style.backgroundColor = ""
+        })
+    })
+    button2.addEventListener("click", () => {
+        button2.style.color = "white"
+        button2.style.backgroundColor = "blue"
+        button1.style.color = ""
+        button1.style.backgroundColor = ""
+        button4.addEventListener("click", () => {
+            price1.innerText = "$8.49"
+            price2.innerText = "$9.99"
+            button4.style.color = "white"
+            button4.style.backgroundColor = "blue"
+            button3.style.color = ""
+            button3.style.backgroundColor = ""
+            button5.style.color = ""
+            button5.style.backgroundColor = ""
+        })
+
+    })
+    button2.addEventListener("click", () => {
+        button2.style.color = "white"
+        button2.style.backgroundColor = "blue";
+        button1.style.color = ""
+        button1.style.backgroundColor = ""
+        button5.addEventListener("click", () => {
+            price1.innerText = "$7.99"
+            price2.innerText = "$9.99";
+            button5.style.color = "white"
+            button5.style.backgroundColor = "blue"
+            button4.style.color = ""
+            button4.style.backgroundColor = ""
+            button3.style.color = ""
+            button3.style.backgroundColor = ""
+        })
+
     })
 
-})
 
 
- 
 
 
-   
+
     fetch(`https://63c79cd45c0760f69aba6bc5.mockapi.io/res?page=1&limit=12`)
         .then((res) => {
-  
+
             return res.json()
         })
         .then((data) => {
@@ -420,8 +432,8 @@ button2.addEventListener("click",()=>{
         });
     }
 
-   
-  
+
+
 
 
 
