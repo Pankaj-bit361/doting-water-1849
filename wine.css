@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+
+
+
+
 #big{
     background:url("https://media.blueapron.com/assets/wine/wine-hero.webp");
     background-size: 100% 600px;
@@ -171,7 +175,11 @@ margin-bottom: 0px;
     margin-left: 32px;
     color: #303236;
     margin-top: 0px;
+<<<<<<< HEAD
     font-family: HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif";
+=======
+    font-family: HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif"
+>>>>>>> 5086c53cbe84963f95985e7216b8268a73a4b630
 }
 
 #btn{
@@ -365,3 +373,49 @@ button:hover{
 }
 
 
+footer{
+    display:flex;
+   background-color:#0f346c;
+   padding-bottom: 100px;
+}
+#first{
+    display:flex;
+    width:70%;
+    gap:7%;
+    margin-left: 6.5%;
+    padding-top:3.5%;
+    font-size: 14px;
+    color:#a1bce6;
+    font-family: FONT-FAMILY
+    HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+}
+#second{
+    padding-top: 3.5%;
+    color:#a1bce6;
+    margin-left:6.5%;
+    font-size: 14px;
+    text-align: right;
+    font-family: FONT-FAMILY
+    HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+
+}
+#second>div>img{
+    width:127px;
+    height:37px;
+    
+    }
+    #second :nth-child(9)>a>img{
+        height:50px
+    }
+#merge{
+    margin-top:-5%;
+    font-size:16px;
+    line-height: 24px;
+    margin-left:6.5%;
+    color:white;
+    font-family: FONT-FAMILY
+    "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+}
+#span{
+    color:#a1bce6;
+}
