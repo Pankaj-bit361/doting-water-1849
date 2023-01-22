@@ -234,7 +234,7 @@
    let container= document.getElementById("mid5")
    let container2=document.getElementById("mid8")
    let container4=document.getElementById("mid14")
-
+   let menu=JSON.parse(localStorage.getItem("menu"))||[]
    let button1=document.getElementById("btn-1")
 let button2=document.getElementById("btn-2")
 let button3=document.getElementById("btn-3")
@@ -368,6 +368,25 @@ image.setAttribute("src",element.image)
     description.innerText=element.description
     let time=document.createElement("p")
     time.innerText=element.time
+    card.addEventListener("click", () => {
+
+window.location.pathname = "itemdescription.html"
+let already = false;
+for (var i = 0; i < menu.length; i++) {
+    if (menu[i].id === element.id) {
+        already = true;
+
+    }
+}
+
+if (already == true) {
+
+} else {
+    menu.push(element)
+    localStorage.setItem("menu", JSON.stringify(menu))
+
+}
+})
     card.append(image,name,description,time)
     container.append(card)
 });
@@ -395,6 +414,26 @@ image1.setAttribute("src",element.image)
     description1.innerText=element.description
     let time1=document.createElement("p")
     time1.innerText=element.time
+    card1.addEventListener("click", () => {
+
+window.location.pathname = "itemdescription.html"
+let already = false;
+for (var i = 0; i < menu.length; i++) {
+    if (menu[i].id === element.id) {
+        already = true;
+
+    }
+}
+
+if (already == true) {
+
+} else {
+    menu.push(element)
+    localStorage.setItem("menu", JSON.stringify(menu))
+
+}
+})
+
     card1.append(image1,name1,description1,time1)
     container2.append(card1)
 });
@@ -423,7 +462,26 @@ image2.setAttribute("src",element.image)
     let description2=document.createElement("p")
     description2.innerText=element.description
     let time2=document.createElement("p")
-    time2.innerText=element.time
+    time2.innerText=element.time;
+    card.addEventListener("click", () => {
+
+window.location.pathname = "itemdescription.html"
+let already = false;
+for (var i = 0; i < menu.length; i++) {
+    if (menu[i].id === element.id) {
+        already = true;
+
+    }
+}
+
+if (already == true) {
+
+} else {
+    menu.push(element)
+    localStorage.setItem("menu", JSON.stringify(menu))
+
+}
+})
     card2.append(image2,name2,description2,time2)
     container3.append(card2)
 });
@@ -453,6 +511,25 @@ image3.setAttribute("src",element.image)
     description3.innerText=element.description
     let time3=document.createElement("p")
     time3.innerText=element.time
+    card.addEventListener("click", () => {
+
+window.location.pathname = "itemdescription.html"
+let already = false;
+for (var i = 0; i < menu.length; i++) {
+    if (menu[i].id === element.id) {
+        already = true;
+
+    }
+}
+
+if (already == true) {
+
+} else {
+    menu.push(element)
+    localStorage.setItem("menu", JSON.stringify(menu))
+
+}
+})
     card3.append(image3,name3,description3,time3)
     container4.append(card3)
 });
