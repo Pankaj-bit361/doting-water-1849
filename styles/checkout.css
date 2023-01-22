@@ -1,0 +1,44 @@
+#checkout{
+    padding-top: 30px;
+    border: 1px solid bisque;
+    width: 75%;
+    height: 700px;
+    margin: auto;
+    display: flex;
+}
+#checkout>div:nth-child(1){
+    border: 1px solid bisque;
+    width: 748px;
+    height: 700px;
+    padding: 25px;
+}
+#checkout>div:nth-child(1)>h1{
+    border: 1px solid bisque;
+    padding-bottom: 15px;
+    
+}
+#checkout>div:nth-child(2){
+    border: 1px solid bisque;
+    width: 374px;
+    height: 700px;
+
+}
+.user-info{
+    display: flex;
+    width: 698px;
+    height: 80px;
+    justify-content: space-between;
+
+}
+.user-info>div{
+    width: 48%;
+}
+
+.user-info>div>input
+{
+    margin-top: 5px;
+    display: block;
+    width: 98%;
+    height: 46px;
+    color: #303236;
+}
