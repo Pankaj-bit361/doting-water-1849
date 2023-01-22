@@ -1,0 +1,367 @@
+*{
+    margin: 0px;
+    text-align: center;
+}
+
+#big{
+    background:url("https://media.blueapron.com/assets/wine/wine-hero.webp");
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    border: 0.000001px solid #fff;
+}
+
+#small-div{
+    margin-left: 600px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+h1{
+    font-family: "Chronicle Ssm";
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #002684;
+    margin-bottom: 16px;
+}
+
+h3{
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: #00a0df;
+font-family: Cera "Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;    
+margin-bottom: 27px;
+}
+
+button{
+    background-color: #002684;
+    color: #fff;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 360px;
+}
+
+
+
+/* *******************************second-div********************/
+
+#second-div{
+height: 361px;
+width: 100%;
+background-color: #ffffff;
+}
+
+h2{
+    margin-top: 61px;
+    font-size: 30px;
+    line-height: 36px;
+    color: #303236;
+    font-family: HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+}
+
+#second-small_div{
+display: flex;
+width: 100%;
+margin: auto;
+justify-content: space-around;
+}
+
+img{
+    margin: 60px;
+    margin-bottom: 35px;
+}
+
+h4{
+    font-size: 14px;
+    line-height: 22.4px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    color: #303236;
+}
+
+p{
+    font-family: "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    width: 250px;
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 27.2px;
+    text-align: center;
+    color: #6a6d75;
+}
+
+
+
+/* ****************************third-big_div******************************** */
+
+#third-big_div{
+background: url("https://media.blueapron.com/assets/wine/wine-box.webp");
+background-size: 100% 755px;
+background-repeat: no-repeat;
+border: 0.000001px solid #fff;
+height: 764px;
+}
+
+hr{
+    height: 8px;
+    background-color: #002684;
+}
+
+#thierd-small_div{
+    margin-top: 160px;
+    margin-bottom: 130px;
+    background-color: #ffffff;
+    height: 510px;
+    width: 354px;
+    margin-left: 790px;
+}
+
+#thire-h2_div{
+margin-top: 40px;
+font-size: 30px;
+line-height: 36px;
+text-align: left;
+font-family: "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+color: #303236;
+margin-left: 32px;
+margin-bottom: 24px;
+}
+
+.ppp{
+    font-family: HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+margin-left: 44px;
+text-align: left;
+font-size: 15px;
+line-height: 24px;
+color: #303236;
+margin-bottom: 14px;
+}
+
+h4{
+    font-family: "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    color: #00a0df;
+    margin-left: 32px;
+    margin-bottom: 1px;
+}
+
+#mony{
+    font-family: HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 32px;
+    color: #303236;
+margin-top: -1px;
+margin-bottom: 0px;
+}
+
+#small{
+    font-size: 10px;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 32px;
+    color: #303236;
+    margin-top: 0px;
+    font-family: HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;"
+}
+
+#btn{
+    margin-top: 24px;
+    margin-left: -90px;
+}
+
+
+
+/* **********************************fourth-big_div****************************/
+
+#fourth-big_div{
+width: 100%;
+height: 552px;
+text-align: center;
+}
+
+#fourth-big_div-h1{
+    font-family: "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    width: 469px;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #303236;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+#fourth-big_div-p{
+    font-family:"Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 28.9px;
+    margin: auto;
+    width: 469px;
+    color: #6a6d75;
+
+}
+
+
+
+/* ********************fifth-big_div********************************* */
+
+#fifth-big_div{
+    background: url("https://media.blueapron.com/assets/wine/wine-learn.webp");
+    background-size: 100% 685px;
+background-repeat: no-repeat;
+border: 0.000001px solid #fff;
+}
+
+#fifth-big_div-small{
+    margin-left: 355px;
+    text-align: left;
+}
+
+#fifth-big_div-h2{
+    font-family: "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    width: 300px;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+#fifth-big_div-p{
+    width: 280px;
+    font-family: "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+     text-align: left;
+    color: #ffffff;
+    margin-bottom: 317px;   
+}
+
+
+
+/* **************************sixth-big_div********************* */
+
+
+#sixth-big_div-h2{
+    font-family: "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    width: 469px;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #303236;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-top: 90px;
+}
+
+#sixth-big_div-p{
+    font-family:"Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 28.9px;
+    margin: auto;
+    width: 469px;
+    color: #6a6d75;
+    margin-bottom: 85px;
+}
+
+
+#sixth-big_div-small{
+width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+#sixth-big_div-small div{
+    border: 1px solid tea;
+}
+
+#sixth-big_div-small-img{
+    height: 685px;
+    width:  303px;
+}
+
+.sixth-big_div-img_2{
+    margin-bottom: 0px;
+}
+
+.sixth-big_div-h3{
+    font-family: "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 24.4px;
+    letter-spacing: 1px;
+    color: #002684;
+    width: 235px;
+    margin: auto;
+    margin-bottom: 8px;
+}
+
+.sixth-big_div-p{
+    font-family: "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 19.18px;
+    text-align: center;
+    width: 250px;
+    height: 38px;
+margin: auto;
+color: #6a6d75;
+margin-bottom: 0px;
+}
+
+
+
+
+/* ******************sevent-div**************************/
+
+
+#sevent-div{
+    background: url("https://media.blueapron.com/assets/wine/wine-footer.webp");
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    border: 0.000001px solid #fff;
+}
+
+#sevent-div-h1{
+    font-family: "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif
+    ;
+    font-size: 46px;
+    line-height: 55.2px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 140px;
+    margin-bottom: 27px;
+}
+
+#sevent-div-button{
+    font-family: "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+font-size: 12px;
+line-height: 14.95px;
+text-align: center;
+letter-spacing: 2px;
+color: #002684;
+background-color: #ffffff;
+width: 170px;
+height: 45px;
+border-radius: 360px;
+margin-bottom: 207px;
+padding:10px;
+}
+
+
+button:hover{
+    cursor: pointer;
+}
+
+
