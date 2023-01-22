@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    
+}
+
+#big{
+    width: 86.99%;
+    margin: auto;
+    justify-content: center;
+    background: url("https://myba-media.blueapron.com/registration/assets/7a7a8f63eb65f98a4017c5e5058bc98463abb300/images/meal-header..jpg");
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+    border: 0.000001px solid #fff;
+    
+}
+
+#big-h1{
+    font-family: "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    font-size: 70px;
+    line-height: 72px;
+    color: #0f346c;
+    margin-top: 113px;
+    margin-bottom: 113px;
+    text-align: center;
+}
+
+
+/* *******************second-big_div******************* */
+
+
+#second-big_div{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#price-show-cart{
+    width: 308px;
+    height: 200px;
+    border-radius: 25px;
+    border: 1px solid #0f346c;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 50px;
+}
+
+#price-show-cart h1{
+font-family: HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+color: #0f346c;
+font-size: 36px;
+line-height: 24px;
+text-align: start;
+margin: 10px;
+margin-left: 20px;
+margin-top: 27px;
+}
+
+#price-show-cart p{
+    margin-left: 20px;
+    font-size: 12px;
+    color: #0f346c;
+    font-family: "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    text-align: start;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+#price-show-cart img{
+    margin-left: 180px;
+    margin-top: 60px;
+}
+
+
+.p{
+    font-family: "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    line-height: 24px;
+    text-align: left;
+    color: #696d75;
+    width: 308px;
+    margin-top: 20px;
+}
+
+
+/* *********************secound div************* */
+
+.second-div-p{
+    font-family: "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    font-size: 11px;
+    line-height: 20px;
+    text-align: start;
+    color: #303235;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.second-div-pp{
+    font-family: "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    font-size: 11px;
+    line-height: 20px;
+    text-align: start;
+    color: #303235;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.mw{
+    height: 40px;
+    width: 87px;
+    background-color: none;
+font-size: 10px;
+border: 1px solid #0f346c;
+background-color: #ffffff;
+color: #0f346c;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+.mw:hover{
+    background-color: #696d75;
+    color: #ffffff;
+}
+
+
+.number{
+width: 70px;
+height: 40px;
+border: 1px solid #0f346c;
+color: #0f346c;
+background-color: #ffffff;
+font-size: 10px;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+
+.number:hover{
+    background-color: #696d75;
+    color: #ffffff;
+}
+
+#good{
+    font-family: HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: start;
+    color: #696d75;
+}
+
+#state{
+    padding: 10px;
+    height: 40px;
+    text-align: start;
+    border: 1px solid #0f346c;
+    color: #0f346c;
+    display: block;
+}
+
+
+#add-to-cart{
+font-family: "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+height: 50px;
+width: 306px;
+background-color: #f26c29;
+border: none;
+color: #ffffff;
+font-size: 16px;
+letter-spacing: 1px;
+text-align: center;
+font-weight: 600;
+margin-top: 60px;
+}
+
+#add-to-cart:hover{
+    background-color: #ff8182;
+}
+
+
+#ppp{
+   font-family: HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    color: #6a6d75;
+    font-weight: 600;
+    margin-top: 10px; 
+    width: 92%;
+    margin: auto;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.more{
+    border: none;
+    font-size: 14px;
+    height: 50px;
+    margin-top: 26px;
+    width: 230px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #0f346c;;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.more:hover{
+    text-decoration: underline;
+}
+
+#moree{
+    margin-left: 400px;
+}
+
+
+
+
+
+
+
+
