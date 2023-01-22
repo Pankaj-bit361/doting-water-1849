@@ -75,6 +75,16 @@ font-family: FONT-FAMILY
 
 /* header ends */
  
+
+
+#float>img{
+    width:100px;
+    position: -webkit-sticky;
+    position: sticky;
+    left:100px;
+    top:300px;
+}
+
 #append {
     background-image: url("https://media.blueapron.com/assets/registration/homepage/desktop-splash-v2.webp?height=800&quality=90") ;
      width:100%;
@@ -163,6 +173,21 @@ font-family: FONT-FAMILY
 
     color: #6a6d75;
 }
+@media only screen and (max-width: 600px){
+    #mid3{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px){
+    #mid3{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left:10%
+    }
+}
+
 
 #mid4>p {
     text-align: center;
@@ -241,6 +266,20 @@ font-family: FONT-FAMILY
     color: #6a6d75
 }
 
+
+@media only screen and (max-width: 600px){
+    #grid1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px){
+    #grid1{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 #mid6>button {
     width: 260px;
     height: 50px;
@@ -506,6 +545,9 @@ footer{
     width:127px;
     height:37px;
     
+    }
+    #second :nth-child(9)>a>img{
+        height:50px
     }
 #merge{
     margin-top:-5%;

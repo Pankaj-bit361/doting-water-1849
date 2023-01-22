@@ -1,3 +1,5 @@
+/* header starts */
+
 #main {
     display: flex;
     /* justify-content: space-evenly; */
@@ -66,6 +68,9 @@ font-family: FONT-FAMILY
 "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
 }
 
+
+
+
 #mid>h1{
     font-size:58px;
     font-family: FONT-FAMILY
@@ -77,7 +82,7 @@ color:#002c9b;
 
 display: flex;
 justify-content: center;
-gap: 50px;
+gap: 4%;
 
 }
 #mid1>p{
@@ -97,19 +102,25 @@ gap: 50px;
     
 display: flex;
 justify-content: center;
-gap: 100px;
-margin-right:20px
+gap: 7%;
+margin-right:2%;
+
 }
-#mid2>div{
+#mid2>a{
+    text-decoration: none;
+}
+#mid2 div{
     font-size: 18px;
     line-height: 16px;
     color:#002c9b;
- 
+  
     font-weight: 900;
     font-family: FONT-FAMILY
-    "Chronicle Deck", Times, serif
+    "Chronicle Deck", Times, serif;
+
+    
 }
-#mid2 >div:hover{
+#mid2 div:hover{
     border: none;
  border-bottom: 4px solid #002c9b;
  
@@ -123,77 +134,80 @@ hr{
  height: 1px;
  background-color: #002c9b;
 }
-#mid3{
-    padding-top:50px;
-    width:550px;
-    font-size: 16px;
-    line-height: 24px;
-    font-family: FONT-FAMILY
-    HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
-    color:#002c9b;
-    text-align: center;
-    margin: auto;
-}
 
-#mid4{
-    padding-top: 70px;
-    font-size: 18px;
-    display: flex;
-    justify-content: space-between;
-    width:93%;
-    margin:auto;
-    
-}
-#mid4 >p{
+
+
+    #mid3{
+        padding-top:3%;
+        width:50%;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: FONT-FAMILY
+        HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+        color:#002c9b;
+        text-align: center;
+        margin: auto;
+    }
+
+    #mid4{
+        padding-top: 5%;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-between;
+        width:93%;
+        margin:auto;
+        
+    }
+    #mid4 >p{
 color:#002684;
 letter-spacing: 4.86px;
 font-weight: bold;
 
-}
-#mid4 >button{
-    width: 208px;
-    height: 50px;
-    color: white;
-    background-color: #002684;
-    border-radius: 50px;
-    font-size: 18px;
-    border:none;
-    font-family: FONT-FAMILY
-    "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
-}
-#mid5{
-    padding-top:40px;
-    display: grid;
-    width:90%;
-    grid-template-columns: repeat(3,1fr);
-    margin:auto;
-    gap:20px;
-  
-}
-#mid5>div{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    #mid4 >button{
+        width: 20%;
+        height: 50px;
+        color: white;
+        background-color: #002684;
+        border-radius: 50px;
+        font-size: 18px;
+        border:none;
+        font-family: FONT-FAMILY
+        "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    }
+    #mid5{
+        padding-top:40px;
+        display: grid;
+        width:90%;
+        grid-template-columns: repeat(3,1fr);
+        margin:auto;
+        gap:20px;
+      
+    }
+    #mid5>div{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 width:100%;
 border-radius:10px 10px 10px 10px;
 
-}
-#mid5>div>img{
+    }
+    #mid5>div>img{
 width:100%;
 height:200px;
 border-radius:10px 10px 0px 0px;
 transition: transform 1s;
-}
-#mid5>div>img:hover{
-    transform: scale(1.1);
-}
-#mid5>div>h1{
-    color:#002684;
-    font-size: 20px;
-    font-family: FONT-FAMILY
-    "Chronicle Deck", Times, serif;
-    margin-left :10px;
+    }
+    #mid5>div>img:hover{
+        transform: scale(1.1);
+    }
+    #mid5>div>h1{
+        color:#002684;
+        font-size: 20px;
+        font-family: FONT-FAMILY
+        "Chronicle Deck", Times, serif;
+        margin-left :10px;
 
-}
-#mid5>div :nth-child(3){
+    }
+    #mid5>div :nth-child(3){
 color:#6a6d75;
 font-size: 16px;
 font-family: FONT-FAMILY
@@ -202,13 +216,12 @@ margin-left :10px;
 
 }
 #mid5>div :nth-child(4){
-color:#00a0df;
-font-size: 16px;
-margin-left :10px;
-padding-top:20px
+    color:#00a0df;
+    font-size: 16px;
+    margin-left :10px;
+    padding-top:20px
 
 }
-
 #build{
     display:flex;
     width:70%;
@@ -223,7 +236,7 @@ padding-top:20px
     gap:20%
 }
 #wow{
-    width:500px;
+    width:50%;
 margin-left:10%
 }
 #wow3{
@@ -236,7 +249,6 @@ margin-left:10%
 #wow4{
     display: flex;
     gap:10%;
-    width:400px
     
 }
 #wow :nth-child(2){
@@ -260,7 +272,7 @@ margin-left:10%
     font-size: 14px;
 }
 #wow3{
-    margin-top: 30px;
+    margin-top: 10%;
     gap:10%
 }
 #wow3 p{
@@ -273,7 +285,7 @@ font-size: 16px;
     }
     #left{
     
-      width:400px
+      width:40%
     }
     #b3>button{
         margin-top:10%;
@@ -303,18 +315,19 @@ border-radius: 10px;
         line-height: 30px;
         margin-left:50%
     }
+
     #mid7{
         padding-top: 5%;
     }
 #mid6{
-margin-top: 70px;
-font-size: 18px;
-display: flex;
-justify-content: space-between;
-width:100%;
-margin:auto;
-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-
+   margin-top: 70px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  
 }
 #mid6 >p{
 color:#002684;
@@ -324,28 +337,28 @@ margin-left: 50px;
 
 }
 #mid6 >button{
-width: 208px;
-height: 50px;
-color: white;
-background-color: #002684;
-border-radius: 50px;
-font-size: 18px;
-border:none;
-margin-right:50px;
-font-family: FONT-FAMILY
-"Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    width: 20%;
+    height: 50px;
+    color: white;
+    background-color: #002684;
+    border-radius: 50px;
+    font-size: 18px;
+    border:none;
+    margin-right:50px;
+    font-family: FONT-FAMILY
+    "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
 }
 #mid8{
-padding-top:40px;
-display: grid;
-width:90%;
-grid-template-columns: repeat(3,1fr);
-margin:auto;
-gap:20px;
-
+    padding-top:40px;
+    display: grid;
+    width:90%;
+    grid-template-columns: repeat(3,1fr);
+    margin:auto;
+    gap:20px;
+  
 }
 #mid8>div{
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 width:100%;
 border-radius:10px 10px 10px 10px;
 
@@ -357,14 +370,14 @@ border-radius:10px 10px 0px 0px;
 transition: transform 1s;
 }
 #mid8>div>img:hover{
-transform: scale(1.1);
+    transform: scale(1.1);
 }
 #mid8>div>h1{
-color:#002684;
-font-size: 20px;
-font-family: FONT-FAMILY
-"Chronicle Deck", Times, serif;
-margin-left :10px;
+    color:#002684;
+    font-size: 20px;
+    font-family: FONT-FAMILY
+    "Chronicle Deck", Times, serif;
+    margin-left :10px;
 
 }
 #mid8>div :nth-child(3){
@@ -383,46 +396,46 @@ padding-top:20px
 
 }
 #mid10{
-margin-top: 70px;
- font-size: 18px;
- display: flex;
- justify-content: space-between;
- width:100%;
- margin:auto;
- box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 70px;
+     font-size: 18px;
+     display: flex;
+     justify-content: space-between;
+     width:100%;
+     margin:auto;
+     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+   
+ }
+ #mid10 >p{
+ color:#002684;
+ letter-spacing: 4.86px;
+ font-weight: bold;
+ margin-left: 50px;
+ 
+ }
+ #mid10 >button{
+     width: 20%;
+     height: 50px;
+     color: white;
+     background-color: #002684;
+     border-radius: 50px;
+     font-size: 18px;
+     border:none;
+     margin-right:50px;
+     font-family: FONT-FAMILY
+     "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+ }
 
-}
-#mid10 >p{
-color:#002684;
-letter-spacing: 4.86px;
-font-weight: bold;
-margin-left: 50px;
-
-}
-#mid10 >button{
- width: 208px;
- height: 50px;
- color: white;
- background-color: #002684;
- border-radius: 50px;
- font-size: 18px;
- border:none;
- margin-right:50px;
- font-family: FONT-FAMILY
- "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
-}
-
-#mid11{
-padding-top:40px;
-display: grid;
-width:90%;
-grid-template-columns: repeat(3,1fr);
-margin:auto;
-gap:20px;
-
+ #mid11{
+    padding-top:40px;
+    display: grid;
+    width:90%;
+    grid-template-columns: repeat(3,1fr);
+    margin:auto;
+    gap:20px;
+  
 }
 #mid11>div{
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 width:100%;
 border-radius:10px 10px 10px 10px;
 
@@ -435,15 +448,15 @@ transition:transform 1s;
 }
 
 #mid11>div>img:hover{
-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 #mid11>div>h1{
-color:#002684;
-font-size: 20px;
-font-family: FONT-FAMILY
-"Chronicle Deck", Times, serif;
-margin-left :10px;
+    color:#002684;
+    font-size: 20px;
+    font-family: FONT-FAMILY
+    "Chronicle Deck", Times, serif;
+    margin-left :10px;
 
 }
 #mid11>div :nth-child(3){
@@ -463,46 +476,46 @@ padding-top:20px
 }
 
 #mid13{
-margin-top: 70px;
- font-size: 18px;
- display: flex;
- justify-content: space-between;
- width:100%;
- margin:auto;
- box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 70px;
+     font-size: 18px;
+     display: flex;
+     justify-content: space-between;
+     width:100%;
+     margin:auto;
+     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+   
+ }
+ #mid13 >p{
+ color:#002684;
+ letter-spacing: 4.86px;
+ font-weight: bold;
+ margin-left: 50px;
+ 
+ }
+ #mid13 >button{
+     width: 20%;
+     height: 50px;
+     color: white;
+     background-color: #002684;
+     border-radius: 50px;
+     font-size: 18px;
+     border:none;
+     margin-right:50px;
+     font-family: FONT-FAMILY
+     "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+ }
 
-}
-#mid13 >p{
-color:#002684;
-letter-spacing: 4.86px;
-font-weight: bold;
-margin-left: 50px;
-
-}
-#mid13 >button{
- width: 208px;
- height: 50px;
- color: white;
- background-color: #002684;
- border-radius: 50px;
- font-size: 18px;
- border:none;
- margin-right:50px;
- font-family: FONT-FAMILY
- "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
-}
-
-#mid14{
-padding-top:40px;
-display: grid;
-width:90%;
-grid-template-columns: repeat(3,1fr);
-margin:auto;
-gap:20px;
-
+ #mid14{
+    padding-top:40px;
+    display: grid;
+    width:90%;
+    grid-template-columns: repeat(3,1fr);
+    margin:auto;
+    gap:20px;
+  
 }
 #mid14>div{
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 width:100%;
 border-radius:10px 10px 10px 10px;
 
@@ -515,14 +528,14 @@ transition: transform 1s;
 }
 
 #mid14>div>img:hover{
-transform: scale(1.1);
+    transform: scale(1.1);
 }
 #mid14>div>h1{
-color:#002684;
-font-size: 20px;
-font-family: FONT-FAMILY
-"Chronicle Deck", Times, serif;
-margin-left :10px;
+    color:#002684;
+    font-size: 20px;
+    font-family: FONT-FAMILY
+    "Chronicle Deck", Times, serif;
+    margin-left :10px;
 
 }
 #mid14>div :nth-child(3){
@@ -540,6 +553,7 @@ margin-left :10px;
 padding-top:20px
 
 }
+
 
 @media only screen and (max-width: 600px){
     #mid5{
@@ -571,6 +585,8 @@ padding-top:20px
         grid-template-columns: repeat(2,1fr);
     }
   } 
+  
+
 
 
 /* foooter//// */

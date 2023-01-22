@@ -69,6 +69,8 @@ font-family: FONT-FAMILY
 }
 
 
+
+
 #mid>h1{
     font-size:58px;
     font-family: FONT-FAMILY
@@ -80,7 +82,7 @@ color:#002c9b;
 
 display: flex;
 justify-content: center;
-gap: 60px;
+gap: 4%;
 
 }
 #mid1>p{
@@ -100,8 +102,8 @@ gap: 60px;
     
 display: flex;
 justify-content: center;
-gap: 100px;
-margin-right:20px;
+gap: 7%;
+margin-right:2%;
 
 }
 #mid2>a{
@@ -136,8 +138,8 @@ hr{
 
 
     #mid3{
-        padding-top:50px;
-        width:550px;
+        padding-top:3%;
+        width:50%;
         font-size: 16px;
         line-height: 24px;
         font-family: FONT-FAMILY
@@ -148,7 +150,7 @@ hr{
     }
 
     #mid4{
-        padding-top: 70px;
+        padding-top: 5%;
         font-size: 18px;
         display: flex;
         justify-content: space-between;
@@ -163,7 +165,7 @@ font-weight: bold;
 
     }
     #mid4 >button{
-        width: 208px;
+        width: 20%;
         height: 50px;
         color: white;
         background-color: #002684;
@@ -234,7 +236,7 @@ margin-left :10px;
     gap:20%
 }
 #wow{
-    width:500px;
+    width:50%;
 margin-left:10%
 }
 #wow3{
@@ -247,7 +249,6 @@ margin-left:10%
 #wow4{
     display: flex;
     gap:10%;
-    width:400px
     
 }
 #wow :nth-child(2){
@@ -271,7 +272,7 @@ margin-left:10%
     font-size: 14px;
 }
 #wow3{
-    margin-top: 30px;
+    margin-top: 10%;
     gap:10%
 }
 #wow3 p{
@@ -284,7 +285,7 @@ font-size: 16px;
     }
     #left{
     
-      width:400px
+      width:40%
     }
     #b3>button{
         margin-top:10%;
@@ -336,7 +337,7 @@ margin-left: 50px;
 
 }
 #mid6 >button{
-    width: 208px;
+    width: 20%;
     height: 50px;
     color: white;
     background-color: #002684;
@@ -412,7 +413,7 @@ padding-top:20px
  
  }
  #mid10 >button{
-     width: 208px;
+     width: 20%;
      height: 50px;
      color: white;
      background-color: #002684;
@@ -492,7 +493,7 @@ padding-top:20px
  
  }
  #mid13 >button{
-     width: 208px;
+     width: 20%;
      height: 50px;
      color: white;
      background-color: #002684;
