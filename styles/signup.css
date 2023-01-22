@@ -5,24 +5,60 @@
 } */
 #main {
     display: flex;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
     width:100%;
     height:60px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
 }
 
 #head>img {
+    margin-right: 150px;
     width: 94px;
     height: 43px;
+    align-items: flex-start;
+
+}
+#status{
+    display: flex;
+    padding-top: 10px;
+
+}
+.div-circle{
+    width: 25px;
+    height: 25px;
+    border:0.5px solid #6a6d75;
+    border-radius: 50px;
+}
+.div-circle>img{
+    padding-top: 2px;
+    padding-left:2px ;
+    width: 20px;
+}
+#status>div{
+    display: flex;
+}
+#status>div:nth-child(1)>h3{
+    color: #6a6d75;
+    margin-left: 10px;
+    margin-top:2px;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1.4px;
+
+}
+#status>div:nth-child(2){
+  border: 0.1px solid #ced0d6;
+    width: 60px;
+    height: 0.1px;
+    margin: 12px;
 
 }
 
 #head {
     display: flex;
- 
    padding-left:60px;
     width:100%;
-justify-content: space-around;
 
 }
 
@@ -82,7 +118,7 @@ font-family: FONT-FAMILY
     font-family: "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
 background-position: center;
 width: 100%;
-height:1050px;
+height:840px;
 background-image: url("https://media.blueapron.com/assets/signup/landing/background-landing-signup.jpg?quality=80&width=1440");
 object-fit: cover;
 padding-top:50px;
@@ -127,7 +163,7 @@ color: #002c9b;
 #sign-up-body>div{
     width: 49%;
     height: auto;
-    border: 1px solid beige;
+ 
 }
 #sign-up-body>div>h3{
     font-size: 13px;
@@ -154,6 +190,110 @@ color: #002c9b;
   margin-top: 16px;
   margin-right: 20px;
 }
+#sign-up{
+    margin-left: 50px;
+    padding-top:70px;
+    padding-left: 120px;
+    display: block;
+}
+#sign-up>input{
+    margin-top: 10px;
+    display: block;
+    width: 400px;
+   height: 48px;
+}
+#sign-up>button{
+    margin-top: 10px;
+    display: block;
+    width: 407px;
+   height: 47px;
+   font-size: 16px;
+   letter-spacing: 1px;
+   background-color: #002684;
+   color: white;
+   font-weight: bold;
+   border-radius: 2px;
+}
+#or{
+    display: flex;
+    width: 407px;
+    margin-top: 10px;
+}
+#or>hr{
+    color: #6a6d75;
+    height: 0.5px;
+    width:185px;
+    
+}
+#or>span{
+margin-left: 5px;
+margin-right: 5px;
+color: #6a6d75;
+}
+#sign-up-with>button:nth-child(1){
+    margin-top: 10px;
+    display: block;
+    width: 407px;
+   height: 47px;
+   font-size: 16px;
+   letter-spacing: 1px;
+   background-color: black;
+   color: white;
+   font-weight: bold;
+   border-radius: 10px;
+}
+#sign-up-with>button:nth-child(2){
+    margin-top: 10px;
+    display: block;
+    width: 407px;
+   height: 47px;
+   font-size: 16px;
+   letter-spacing: 1px;
+   background-color: #002684;
+   color: white;
+   font-weight: bold;
+   border-radius: 5px;
+}
+#sign-up-with>p{
+    text-align: center;
+    margin-left: -30px;
+    font-size: 13px;
+    line-height: 24px;
+}
+#flex-card-3{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    padding-top: 70px;
+    justify-content: space-evenly;
+    font-family:"Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif ;
+}
+#flex-card-3>div{
+    text-align: center;
+    width: 28%;
+    height: auto;
+   border: 0.5px solid #ced0d6;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+#flex-card-3>div>img{
+    margin-top: -50px;
+    background-color: white;
+}
+#flex-card-3>div>h3{
+
+ font-size: 25px;
+ line-height: 36px;
+ color: #303236;
+}
+#flex-card-3>div>h3{
+    font-size: 14px;
+    line-height: 21px;
+    color: #6a6d75;
+   }
+
 
 
 
@@ -284,41 +424,18 @@ width:127px;
 height:37px;
 
 }
-footer{
-    display:flex;
-   background-color:#0f346c;
-   padding-bottom: 100px;
+#footer{
+    margin-top: 100px;
+    display: flex;
+    width: 92%;
+    background-color: #002684;
+    padding: 10px 60px;
+    color: white;
 }
-#first{
-    display:flex;
-    width:70%;
-    gap:100px;
-    margin-left: 80px;
-    padding-top:50px;
-    font-size: 14px;
-    color:#a1bce6;
-    font-family: FONT-FAMILY
-    HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+#footer>p:nth-child(1){
+    font-weight: bold;
 }
-#second{
-    padding-top: 50px;
-    color:#a1bce6;
-    margin-left:50px;
-    font-size: 14px;
-    text-align: right;
-    font-family: FONT-FAMILY
-    HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
-
-}
-#merge{
-    margin-top:-80px;
-    font-size:16px;
-    line-height: 24px;
-    margin-left:80px;
-    color:white;
-    font-family: FONT-FAMILY
-    "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
-}
-#span{
+#footer>p:nth-child(2){
+    margin-left: 300px;
     color:#a1bce6;
 }
