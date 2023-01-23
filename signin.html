@@ -170,9 +170,10 @@
     let log = document.getElementById("login-btn")
     log.addEventListener("click", () => {
         let obj = { username: username.value,password: password.value }
+        console.log(obj);
         if (obj.username === "admin" && obj.password === "admin") {
             alert("Successfully Logged In");
-            location.replace("https://www.blueapron.com/users/sign_up/checkout");
+            window.location.pathname("./home.html");
         }
         else {
 
