@@ -94,11 +94,13 @@
                 <div id="sign-up">
                     <label for="">EMAIL</label>
                     <input type="text">
-                    <button>CONTINUE</button>
+                    <label for="">PASSWORD</label>
+                    <input type="password" name="" id="">
+                    <button id="sign-up-continue">CONTINUE</button>
                     <div id="or"><hr><span>or</span><hr></div>
                   <div id="sign-up-with">
-                    <button>Sign up with Apple</button>
-                    <button>Sign up with Facebook</button>
+                    <button id="apple">Sign up with Apple</button>
+                    <button id="facebook">Sign up with Facebook</button>
                     <p>Already have an acocunt?<a href="./signin.html">Log In</a></p>
                   </div>
                   
@@ -129,6 +131,17 @@
         <p> Do Not Sell or Share My Info &nbsp;&nbsp;&nbsp;&nbsp; Notice to California Residents &nbsp;&nbsp;&nbsp;&nbsp; Ad Preference &nbsp;&nbsp;&nbsp;&nbsp;Privicy Policy &nbsp;&nbsp;&nbsp;&nbsp; Terms of Use  </p>
         
     </div>
+    <script>
+        document.getElementById("sign-up-continue").addEventListener("click",()=>{
+            location.replace("./signin.html");
+        })
+        document.getElementById("apple").addEventListener("click",()=>{
+            location.replace("https://appleid.apple.com/sign-in");
+        })
+        document.getElementById("facebook").addEventListener("click",()=>{
+            location.replace("https://www.facebook.com/");
+        })
+    </script>
 
 
 
