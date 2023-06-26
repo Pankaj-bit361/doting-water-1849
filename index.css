@@ -8,26 +8,31 @@
     display: flex;
     /* justify-content: space-evenly; */
     width:100%;
-    height:60px;
+   
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     background-color: white;
 }
 
-#head img {
-    width: 100%;
-    height: 43px;
+#img50{
+    width:100%
+}
 
+#img50>img{
+    width:70%
+}
+
+#unhide{
+    display: none;
 }
 
 #head {
     display: flex;
- 
-   
+
+   margin-left:5% ;
     width:100%;
-gap:1%;
-padding-left: 3%;
+justify-content: space-around;
 
 }
 
@@ -36,10 +41,10 @@ padding-left: 3%;
     text-decoration: none;
 }
 #head >a {
-    font-size: 14px;
+    font-size: 1vw;
     font-family: FONT-FAMILY
     "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
-    line-height: 26px;
+   line-height: 26px; 
   color: #6a6d75;
     margin-top:1%;
     width: 200%;
@@ -48,42 +53,145 @@ padding-left: 3%;
     margin-left:2%
 }
 
-.head-right {
+#head-right {
     display: flex;
-    gap: 0.5%;
-    padding-left:40%;
-    margin-right:4%;
+    gap: 5%;
+    padding-left:30%;
+    margin-right:10%;
 margin-top:0.5%;
 font-family: FONT-FAMILY
 "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
 }
-.head-right :nth-child(1)>p {
-color:#6a6d75
+#head-right :nth-child(1)>p {
+color:#6a6d75;
+font-size: 1vw;
 }
-.head-right :nth-child(2)>button {
+
+#head-right :nth-child(2)>button {
     background-color: #f26226;
     margin-left: 10%;
+  
  width:170%;
-    font-size: 14px;
+    font-size: 1vw;
     color: white;
    height:40px;
 border:none;
 font-family: FONT-FAMILY
 "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
 }
+@media screen and (max-width:1200px) {
+
+    .head-right :nth-child(1)>p {
+        color:#6a6d75;
+        font-size: 1.2vw;
+        }
+    .head-right :nth-child(2)>button {
+        background-color: #f26226;
+        margin-left: 10%;
+      
+     width:170%;
+        font-size: 1.2vw;
+        color: white;
+       height:32px;
+    border:none;
+    font-family: FONT-FAMILY
+    "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    }   
+
+    #head >a {
+        font-size: 1.2vw;
+       
+    }
+    
+}
+@media screen and (max-width:900px) {
 
 
+
+    #head {
+        display: flex;
+        width:100%;
+    gap:70%
+    
+    }
+    #img50{
+        width:50%
+    }
+    
+    #img50>img{
+        width:75%
+    }
+    #unhide{
+        display: block;
+        width: 10%;
+    }
+    #unhide>i{
+        width: 100%;
+    }
+    .hide{
+        display: none;
+    }
+    .hide1{
+        display: none;
+    }
+
+    #head-right{
+        display: none;
+    }
+}
+
+#navsmall{
+ display: none;
+   margin-left:70%;
+    height: 90vh;
+    border:1px solid black;
+    font-size: 1rem;
+    font-weight: 400;
+    width:30%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+   
+}
+
+#navsmall1{
+color:black;
+margin-left: 5%;
+display:flex;
+justify-content: space-between;
+width:80%;
+}
+#navsmall1>div{
+    margin-top: 3%;
+}
+
+.shift{
+    margin-left: 5%;
+}
+#navsmall>button{
+width:90%;
+padding:3%;
+margin: auto;
+display: block;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 1rem;
+}
+#smallbtn1{
+    background-color: rgb(242,98,38);
+    color:white;
+    border: none;
+    
+}
+#smallbtn2{
+    background-color: white;
+   
+    color: #002684;
+    border: 1px solid gray;
+  
+}
 /* header ends */
  
 
 
-#float>img{
-    width:100px;
-    position: -webkit-sticky;
-    position: sticky;
-    left:100px;
-    top:300px;
-}
+
 
 #append {
     background-image: url("https://media.blueapron.com/assets/registration/homepage/desktop-splash-v2.webp?height=800&quality=90") ;
@@ -91,7 +199,9 @@ font-family: FONT-FAMILY
   background-size:100%;
       height: 90vh;
       display: flex;
-    
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
    
    } 
    #append5{
@@ -123,21 +233,134 @@ font-family: FONT-FAMILY
 
 } 
 
+
+@media screen and (max-width:900px) {
+
+    #append {
+        background-image: url("https://media.blueapron.com/assets/registration/homepage/desktop-splash-v2.webp?height=800&quality=90") ;
+         width:100%;
+      background-size:90%;
+          height: 70vh;
+          display: flex;
+        background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+       
+       } 
+       #append5{
+           width: 35%;
+       }
+       #append5>h1{
+        font-size:2rem;
+        width:90%;
+        color: #002684;
+        font-family: FONT-FAMILY
+        "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+        margin-left:10%;
+        margin-top:30%
+       }
+    #append5>button {
+       
+        color: white;
+        background-color: #002684;
+        border-radius: 50px;
+        font-size: 1rem;
+        border:none;
+        margin-left:12%;
+        font-family: FONT-FAMILY
+        "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    
+    } 
+    
+
+  
+}
+
+
+@media screen and (max-width:600px) {
+
+    #append {
+        background-image: url("https://media.blueapron.com/assets/registration/homepage/desktop-splash-v2.webp?height=800&quality=90") ;
+         width:100%;
+      background-size:80%;
+      
+          height: 50vh;
+          display: flex;
+        background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+       
+       } 
+       #append5{
+           width: 35%;
+       }
+       #append5>h1{
+        font-size:1.7rem;
+        width:90%;
+        color: #002684;
+        font-family: FONT-FAMILY
+        "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+        margin-left:10%;
+        margin-top:20%
+       }
+    #append5>button {
+      
+        color: white;
+        background-color: #002684;
+        border-radius: 50px;
+        font-size: 0.8rem;
+        border:none;
+        margin-left:12%;
+        font-family: FONT-FAMILY
+        "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    
+    } 
+    
+
+  
+}
+
+
+
+
+
 #mid2>h1 {
     color: #002684;
-    margin-left: 32%;
+ 
     font-size: 40px;
     text-align: center;
-    width:40%
+  
+    
 }
 
 #mid2>p {
-    font-size: 20px;
+    font-size: 1.5rem;
     text-align: center;
     width: 30%;
-    margin-left: 35%;
     margin-top: -10px;
+    margin:auto;
     color: #303236
+}
+
+@media screen and (max-width:900px) {
+    #mid2>p {
+        font-size: 1.5rem;
+        text-align: center;
+        width: 50%;
+        margin-top: -10px;
+        color: #303236
+    }
+    
+}
+@media screen and (max-width:600px) {
+    #mid2>p {
+        font-size: 1.2rem;
+        text-align: center;
+        width: 80%;
+        margin-top: -10px;
+        color: #303236
+    }
+    
 }
 
 #mid3 {
@@ -150,7 +373,8 @@ font-family: FONT-FAMILY
 
 #mid3>div {
 
-    width: 80%
+    width: 80%;
+    margin: auto;
 }
 
 #mid3>div>img {
@@ -177,6 +401,8 @@ font-family: FONT-FAMILY
     #mid3{
         display:grid;
         grid-template-columns: repeat(1,1fr);
+        width:80%;
+        margin: auto;
     }
 }
 
@@ -300,34 +526,112 @@ font-family: FONT-FAMILY
 background-image: url("https://media.blueapron.com/assets/registration/homepage/cooking-pot.webp?height=600&quality=90");
 width:100%;
 background-size:100% ;
-height: 80vh;
+height: 90vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 #pan{
-    width:50%;
+    width:60%;
     margin:auto;
 padding-top: 5%;
 }
 #pan>img{
     width:100%
 }
+@media only screen and (min-width: 901px) and (max-width: 1200px){
+    #slido{
+        background-image: url("https://media.blueapron.com/assets/registration/homepage/cooking-pot.webp?height=600&quality=90");
+        width:100%;
+        background-size:100% ;
+        height: 75vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+
+        #pan{
+            width:60%;
+            margin:auto;
+        padding-top: 10%;
+        }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 900px){
+    #slido{
+        background-image: url("https://media.blueapron.com/assets/registration/homepage/cooking-pot.webp?height=600&quality=90");
+        width:100%;
+        background-size:100% ;
+        height: 65vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+
+        #pan{
+            width:60%;
+            margin:auto;
+        padding-top: 10%;
+        }
+}
+
+@media only screen and (min-width:401px) and (max-width: 601px){
+    #slido{
+        background-image: url("https://media.blueapron.com/assets/registration/homepage/cooking-pot.webp?height=600&quality=90");
+        width:100%;
+        background-size:100% ;
+        height: 40vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+
+        #pan{
+            width:60%;
+            margin:auto;
+        padding-top: 10%;
+        }
+}
+@media only screen  and (max-width: 399px){
+    #slido{
+        background-image: url("https://media.blueapron.com/assets/registration/homepage/cooking-pot.webp?height=600&quality=90");
+        width:100%;
+        background-size:100% ;
+        height: 30vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+
+        #pan{
+            width:60%;
+            margin:auto;
+        padding-top: 10%;
+        }
+}
 
 #mid7 {
     width: 80%;
+    background-image: url("https://media.blueapron.com/assets/registration/homepage/green-field.png?height=400&quality=90");
     height: 80vh;
     margin: auto;
-  padding-top:2%
+    margin-top: 5%;
+  padding-top:2%;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #mid7 :nth-child(1)>img{
-    width:100%
-}
-#mid7 :nth-child(2) {
-    margin-top: -40%;
-    margin-left: 50%
+    width:6%;
+    margin-left:45%;
+    margin-top: 5%;
 }
 
-#mid7 :nth-child(3) {
+
+#mid7 :nth-child(2) {
     
-    margin-left: 33%;
+    text-align: center;
     font-size: 20px;
     color: white;
     font-family: FONT-FAMILY
@@ -335,8 +639,8 @@ padding-top: 5%;
 
 }
 
-#mid7 :nth-child(4) {
-    margin-left: 25%;
+#mid7 :nth-child(3) {
+    text-align: center;
     font-size: 18px;
     color: #002684;
     font-family:FONT-FAMILY
@@ -345,17 +649,90 @@ padding-top: 5%;
     line-height: 24px;
 }
 
-#mid7 :nth-child(5)>button {
+#mid7 :nth-child(4)>button {
     color: #002c9b;
     width: 150px;
     height: 40px;
     font-size: 15px;
     background-color: white;
     border-radius: 50px 50px 50px 50px;
-    margin-left: 45%;
+    text-align: center;
+    display: block;
+    margin: auto;
     border: 2px white;
     margin-top: 2%
 }
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 900px){
+    #mid7 {
+        width: 80%;
+        background-image: url("https://media.blueapron.com/assets/registration/homepage/green-field.png?height=400&quality=90");
+        height: 55vh;
+        margin: auto;
+        margin-top: 5%;
+      padding-top:2%;
+      background-position:center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #mid7 :nth-child(2) {
+    
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        font-family: FONT-FAMILY
+        "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    
+    }
+    
+    #mid7 :nth-child(3) {
+        text-align: center;
+        font-size: 2vw;
+        color: #002684;
+        font-family:FONT-FAMILY
+    "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    
+        line-height: 24px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #mid7 {
+        width: 80%;
+        background-image: url("https://media.blueapron.com/assets/registration/homepage/green-field.png?height=400&quality=90");
+        height: 35vh;
+        margin: auto;
+        margin-top: 5%;
+      padding-top:2%;
+      background-position:center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #mid7 :nth-child(2) {
+    
+        text-align: center;
+        font-size: 2.5vw;
+        color: white;
+        font-family: FONT-FAMILY
+        "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    
+    }
+    
+    #mid7 :nth-child(3) {
+        text-align: center;
+        font-size: 2.2vw;
+        color: #002684;
+        font-family:FONT-FAMILY
+    "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    
+        line-height: 24px;
+    }
+}
+
 
 #mid8 {
    background-image: url("https://media.blueapron.com/assets/registration/homepage/gnocchi-ingredients.webp?height=400&quality=90");
@@ -365,9 +742,12 @@ padding-top: 5%;
    height:55vh;
    margin: auto;
    display: flex;
-   margin-top:2%
+   margin-top:2%;
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size: cover;
   
-   
+ 
 }
 
 #mid8>img {
@@ -418,16 +798,102 @@ padding-top: 5%;
     margin: auto;
 }
 
+
+@media only screen and (min-width:601px) and (max-width: 900px){
+    #mid8 {
+        background-image: url("https://media.blueapron.com/assets/registration/homepage/gnocchi-ingredients.webp?height=400&quality=90");
+        background-size: 100%;
+        width:90%;
+        margin-top:10%;
+        height:55vh;
+        margin: auto;
+        display: flex;
+        margin-top:2%;
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+      
+     }
+    
+    #mid9 {
+        width: 65%;
+        height: 200px;
+       margin:auto;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        background-color: white;
+       
+    }
+}
+
+
+@media only screen and (min-width: 401px) and (max-width:600px){
+    #mid8 {
+        background-image: url("https://media.blueapron.com/assets/registration/homepage/gnocchi-ingredients.webp?height=400&quality=90");
+        background-size: 100%;
+        width:90%;
+        margin-top:10%;
+        height:42vh;
+        margin: auto;
+        display: flex;
+        margin-top:2%;
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+      
+     }
+    
+    #mid9 {
+        width: 85%;
+        height: 200px;
+       margin:auto;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        background-color: white;
+       
+    }
+
+}
+
+
+
+@media only screen and (max-width: 400px){
+    #mid8 {
+        background-image: url("https://media.blueapron.com/assets/registration/homepage/gnocchi-ingredients.webp?height=400&quality=90");
+        background-size: 100%;
+        width:90%;
+        margin-top:10%;
+        height:35vh;
+        margin: auto;
+        display: flex;
+        margin-top:2%;
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+      
+     }
+    
+    #mid9 {
+        width: 85%;
+        height: 200px;
+       margin:auto;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        background-color: white;
+       
+    }
+
+}
 #mid10{
     display: flex;
     width:100%;
     justify-content: space-around;
     width:90%;
     margin:auto;
-  
    
-  
 }
+
+
 #flexing :nth-child(1){
    font-size: 14px; 
    font-family: FONT-FAMILY
@@ -510,15 +976,113 @@ color: #303236;
 
 
 
+@media only screen and (min-width:401px) and (max-width:900px){
 
+    #flexing3{
+        display: none;
+    }
+    #mid10{
+        display: flex;
+        flex-direction: column-reverse;
+        width:100%;
+        justify-content: space-around;
+        width:90%;
+        margin:auto;
+       
+    }
+    #flexing1{
+        display: flex;
 
+        width:100%;
+        justify-content: space-around;
+       
+    }
+    #flexing1 :nth-child(1){
+        width:50px;
+        height: 24px;
+        color: #303236;
+        font-family: FONT-FAMILY
+        "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+        height: 30px;
+    }
+    #flexing1 :nth-child(2){
+        width:50px;
+        height: 30px;
+    }
+    #flexing1 :nth-child(3){
+        width:50px;
+        height: 30px;
+    }
+    #flexing :nth-child(4){
+        width:50px;
+        height: 30px;
+    }
+    #flexing2{
+        width:80%;
+        margin: auto;
+    }
+   
+   
+}
+
+@media only screen  and (max-width:400px){
+
+    #flexing3{
+        display: none;
+    }
+    #mid10{
+        display: flex;
+        flex-direction: column-reverse;
+        width:100%;
+        justify-content: space-around;
+        width:90%;
+        margin:auto;
+       
+    }
+    #flexing1{
+        display: flex;
+
+        width:100%;
+        justify-content: space-around;
+       
+    }
+    #flexing1 :nth-child(1){
+        width:50px;
+        height: 24px;
+        color: #303236;
+        font-family: FONT-FAMILY
+        "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+        height: 30px;
+    }
+    #flexing1 :nth-child(2){
+        width:50px;
+        height: 30px;
+    }
+    #flexing1 :nth-child(3){
+        width:50px;
+        height: 30px;
+    }
+    #flexing :nth-child(4){
+        width:50px;
+        height: 30px;
+    }
+    #flexing2{
+        width:80%;
+        margin: auto;
+    }
+   #flexing4{
+    display: none;
+   }
+   
+}
 
 
 /* //////foooter//// */
 footer{
     display:flex;
    background-color:#0f346c;
-   padding-bottom: 100px;
+   padding-bottom: 7%;
+   margin-top: 4%;
 }
 #first{
     display:flex;
@@ -560,4 +1124,103 @@ footer{
 }
 #span{
     color:#a1bce6;
+}
+
+@media screen and (min-width:901px) and (max-width:1200px) {
+    #first{
+        display:flex;
+        width:60%;
+        gap:4%;
+        margin-left: 6.5%;
+        padding-top:3.5%;
+        font-size: 14px;
+        color:#a1bce6;
+        font-family: FONT-FAMILY
+        HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    }
+    #second{
+        padding-top: 3.5%;
+        color:#a1bce6;
+        margin-left:6.5%;
+        font-size: 14px ;
+        text-align: right;
+        font-family: FONT-FAMILY
+        HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    
+    }
+    #second>div>img{
+        width:127px;
+        height:37px;
+        
+        }
+        #second :nth-child(9)>a>img{
+            height:50px
+        }
+}
+
+@media screen and (min-width:601px) and (max-width:900px) {
+    #first{
+        display:flex;
+        width:90%;
+        gap:5%;
+        margin-left: 6.5%;
+        padding-top:3.5%;
+        font-size: 14px;
+        color:#a1bce6;
+        font-family: FONT-FAMILY
+        HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    }
+    #second{
+        /* padding-top: 3.5%;
+        color:#a1bce6;
+        margin-left:6.5%;
+        font-size: 14px ;
+        text-align: right;
+        font-family: FONT-FAMILY
+        HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif; */
+        display: none;
+    
+    }
+    #second>div>img{
+        width:127px;
+        height:37px;
+        
+        }
+        #second :nth-child(9)>a>img{
+            height:50px
+        }
+}
+
+@media screen and  (max-width:600px) {
+    #first{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        width:90%;
+       
+        margin-left: 6.5%;
+        padding-top:3.5%;
+        font-size: 14px;
+        color:#a1bce6;
+        font-family: FONT-FAMILY
+        HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    }
+    #second{
+        /* padding-top: 3.5%;
+        color:#a1bce6;
+        margin-left:6.5%;
+        font-size: 14px ;
+        text-align: right;
+        font-family: FONT-FAMILY
+        HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif; */
+        display: none;
+    
+    }
+    #second>div>img{
+        width:127px;
+        height:37px;
+        
+        }
+        #second :nth-child(9)>a>img{
+            height:50px
+        }
 }
