@@ -88,7 +88,7 @@
 
 
 
-
+<!-- 
     <div id="mid10">
       <div id="flexing">
           <p>FOLLOW US
@@ -122,7 +122,7 @@
           </div>
 
       </div>
-  </div>
+  </div> -->
 
     <footer>
       <div id="first">
@@ -188,47 +188,48 @@
 
 <script>
 
-let menu=JSON.parse(localStorage.getItem("menu"))||[]
+let menu=JSON.parse(localStorage.getItem("menu"))||{}
 let container=document.getElementById("con")
 let item=JSON.parse(localStorage.getItem("alldata"))||[]
 
 
-show(menu)
-function show(data){
-    data.forEach((element,index) => {
+
+ 
   let imagediv=document.createElement("div")
   let image=document.createElement("img")
-  image.setAttribute("src",element.image)
+  image.setAttribute("src",menu.image)
   let prodiv=document.createElement("div")
   let name=document.createElement("h1")
-  name.innerText=element.name
+  name.innerText=menu.name
   let description=document.createElement("p")
-  description.innerText=element.description
+  description.innerText=menu.description
+ 
+
   let time=document.createElement("h5")
-  time.innerText=element.time
+  time.innerText=menu.time
   let price=document.createElement("h4")
-  price.innerText=element.price
+  price.innerText=menu.price
   let title=document.createElement("h4")
   title.innerText="From the Test Kitchen"
   let details=document.createElement("p")
-  details.innerText=element.details
+  details.innerText=`${menu.details.substring(0,150)}...`
   let button=document.createElement("button")
   button.innerText="GET COOKING"
   button.addEventListener("click",()=>{
-    item.push(element)
-    localStorage.setItem("alldata",JSON.stringify(item))
-    data.splice(index,1)
-    localStorage.setItem("menu",JSON.stringify(menu))
-    show(menu)
+    // item.push(data)
+    // localStorage.setItem("alldata",JSON.stringify(item))
+    // data.splice(index,1)
+    // localStorage.setItem("menu",JSON.stringify(menu))
+    // show(menu)
 location.replace("./mealkit.html")
   })
 prodiv.append(image,name,description,time,price,title,details,button)
 imagediv.append(image)
 container.append(imagediv,prodiv)
 
-});
 
-}
+
+
 
 
 </script>

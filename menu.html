@@ -297,7 +297,7 @@
     let container = document.getElementById("mid5")
     let container2 = document.getElementById("mid8")
     let container4 = document.getElementById("mid14")
-    let menu = JSON.parse(localStorage.getItem("menu")) || []
+    let menu = JSON.parse(localStorage.getItem("menu")) || {}
 
     let button1 = document.getElementById("btn-1")
     let button2 = document.getElementById("btn-2")
@@ -440,7 +440,7 @@
             time.innerText = element.time
 
             card.addEventListener("click", () => {
-
+          localStorage.removeItem("menu")
                 window.location.pathname = "itemdescription.html"
                 let already = false;
                 for (var i = 0; i < menu.length; i++) {
@@ -453,7 +453,13 @@
                 if (already == true) {
 
                 } else {
-                    menu.push(element)
+                    menu.name=element.name
+                    menu.image=element.image
+                    menu.description=element.description
+                    menu.time=element.time
+                    menu.price=element.price
+                    menu.details=element.details
+                    console.log(menu)
                     localStorage.setItem("menu", JSON.stringify(menu))
 
                 }

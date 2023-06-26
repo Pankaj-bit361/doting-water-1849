@@ -427,14 +427,14 @@ font-weight: bold;
         }
         #mid1{
         
-        display: flex;
+        display: none;
         justify-content: center;
         gap: 2%;
         
         }
         #mid1>p{
-            font-size: 10px;
-            line-height: 10px;
+            font-size: 12px;
+            line-height: 12px;
             color:#002c9b;
             letter-spacing: 1px;
             font-weight: 900;
@@ -457,8 +457,8 @@ font-weight: bold;
             text-decoration: none;
         }
         #mid2 div{
-            font-size: 10px;
-            line-height: 10px;
+            font-size: 11px;
+            line-height: 11px;
             color:#002c9b;
           
             font-weight: 900;

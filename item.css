@@ -229,7 +229,7 @@ font-size: 1rem;
     margin:auto;
     height: 850px;
     margin-top:50px;
-    margin-bottom: -50px;
+
 }
 
 #con :nth-child(1)>img{
@@ -290,142 +290,316 @@ font-family: FONT-FAMILY
 }
 
 
+@media screen and (min-width:601px) and (max-width:980px){
+    #con{
+        display:flex;
+        flex-direction: column;
+        gap:5%;
+        width:90%;
+        margin:auto;
+        padding-bottom: 10%;
 
+    } 
+    #con :nth-child(1)>img{
+        width:100%
+        
+        }
+        
+        #con :nth-child(2)>h1{
+            font-size:25px;
+            color:#002c9b;
+            font-family: FONT-FAMILY
+            "Chronicle Ssm";
+        }
+        #con :nth-child(2) :nth-child(2){
+            color:rgb(172, 15, 132);
+            font-size: 16px;
+            font-family: FONT-FAMILY
+            "Cera Pro", HelveicaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+            margin-top :-1%;
+        
+        }
+        #con :nth-child(2) :nth-child(3){
+        color:red;
+        font-size: 13px;
+      
+        }
+        #con :nth-child(2) :nth-child(4){
+        color:#002c9b;
+  
+        }
+        #con :nth-child(2) :nth-child(5){
+            color:black;
+            font-size: 17px;
+            font-family: FONT-FAMILY
+            "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+           
+        }
+        #con :nth-child(2) :nth-child(6){
+        font-size: 14px;
+        color:rgb(158, 14, 158);
+        text-align: start;
+        line-height: 25px;
+      
+        }
+        #con :nth-child(2) :nth-child(7){
 
+        font-size: 14px;
+        background-color: #f26226;
+        color:white;
+        border: none;
+        margin-top:2%;
+        line-height: 50px;
+        font-family: FONT-FAMILY
+        "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+        
+        }
 
-#mid10{
-    display: flex;
-    width:100%;
-    justify-content: space-around;
-    width:90%;
-    margin:auto;
-    margin-top:-150px
-}
-
-#flexing :nth-child(1){
-   font-size: 14px; 
-   font-family: FONT-FAMILY
-   "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
-text-align: center;
-
-
-}
-#flexing1{
-    display: flex;
-    gap:40px;
-    width:33%;
-   
-}
-#flexing1 :nth-child(1){
-    width:30px;
-    height: 24px;
-    color: #303236;
-    font-family: FONT-FAMILY
-    "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
-   margin-right: 10px;
-}
-#flexing1 :nth-child(2){
-    width:30px;
-    height: 24px;
-}
-#flexing1 :nth-child(3){
-    width:30px;
-    height: 24px;
-}
-#flexing1 :nth-child(4){
-    width:30px;
-    height: 24px;
-}
-#flexing2 :nth-child(1){
-font-family: FONT-FAMILY
-HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
-font-size: 14px;
-line-height: 16.8px;
-color: #303236;
-text-align: center;
-}
-#flexing4 :nth-child(1){
-    width:330px;
-    height: 34px;
-}
-#flexing4 :nth-child(2){
-    width:55px;
-    height: 40px;
-    color: white;
-    background-color: #002684;
-    border: 2px white;
-    margin-right:10px
-}
-#flexing2 :nth-child(3){
-  text-align: center;
-  font-family: FONT-FAMILY
-  "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
-  font-size: 14px;
-  color: #6a6d75;
-}
-#flexing3 :nth-child(1){
-font-size: 14px;
-color: #303236;
 
 }
 
+@media screen and (max-width:600px) {
+    #con{
+        display:flex;
+        flex-direction: column;
+        gap:5%;
+        width:90%;
+        margin:auto;
+        padding-bottom: 20%;
 
-#flexing5{
-    display: flex;
-    gap:2px
+    } 
+    #con :nth-child(1)>img{
+        width:100%
+        
+        }
+        
+        #con :nth-child(2)>h1{
+            font-size:20px;
+            color:#002c9b;
+            font-family: FONT-FAMILY
+            "Chronicle Ssm";
+        }
+        #con :nth-child(2) :nth-child(2){
+            color:rgb(172, 15, 132);
+            font-size: 14px;
+            font-family: FONT-FAMILY
+            "Cera Pro", HelveicaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+            margin-top :-1%;
+        
+        }
+        #con :nth-child(2) :nth-child(3){
+        color:red;
+        font-size: 12px;
+      
+        }
+        #con :nth-child(2) :nth-child(4){
+        color:#002c9b;
+  
+        }
+        #con :nth-child(2) :nth-child(5){
+            color:black;
+            font-size: 15px;
+            font-family: FONT-FAMILY
+            "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+           
+        }
+        #con :nth-child(2) :nth-child(6){
+        font-size: 12px;
+        color:rgb(158, 14, 158);
+        text-align: start;
+        line-height: 25px;
+      
+        }
+        #con :nth-child(2) :nth-child(7){
+
+        font-size: 12px;
+        background-color: #f26226;
+        color:white;
+        border: none;
+        margin-top:2%;
+        line-height: 50px;
+        font-family: FONT-FAMILY
+        "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+        
+        }
+
+
 }
-#flexing5 :nth-child(1){
-    width: 60px;
-    height: 60px;
-}
-#flexing5 :nth-child(2){
-    margin-top:-3px
-}
 
-
-#second>div>img{
-    width:127px;
-    height:37px;
-
-    
-    }
     footer{
         display:flex;
        background-color:#0f346c;
-       padding-bottom: 100px;
-       margin-top:5%
+       padding-bottom: 7%;
+     
     }
-
-#first{
-    display:flex;
-    width:70%;
-    gap:100px;
-    margin-left: 80px;
-    padding-top:50px;
-    font-size: 14px;
-    color:#a1bce6;
-    font-family: FONT-FAMILY
-    HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
-}
-#second{
-    padding-top: 50px;
-    color:#a1bce6;
-    margin-left:50px;
-    font-size: 14px;
-    text-align: right;
-    font-family: FONT-FAMILY
-    HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
-
-}
-#merge{
-    margin-top:-80px;
-    font-size:16px;
-    line-height: 24px;
-    margin-left:80px;
-    color:white;
-    font-family: FONT-FAMILY
-    "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
-}
-#span{
-    color:#a1bce6;
-}
+    #first{
+        display:flex;
+        width:70%;
+        gap:7%;
+        margin-left: 6.5%;
+        padding-top:3.5%;
+        font-size: 14px;
+        color:#a1bce6;
+        font-family: FONT-FAMILY
+        HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    }
+    #second{
+        padding-top: 3.5%;
+        color:#a1bce6;
+        margin-left:6.5%;
+        font-size: 14px;
+        text-align: right;
+        font-family: FONT-FAMILY
+        HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    
+    }
+    #second>div>img{
+        width:127px;
+        height:37px;
+        
+        }
+        #second :nth-child(9)>a>img{
+            height:50px
+        }
+    #merge{
+        margin-top:-5%;
+        font-size:16px;
+        line-height: 24px;
+        margin-left:6.5%;
+        color:white;
+        font-family: FONT-FAMILY
+        "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    }
+    #span{
+        color:#a1bce6;
+    }
+    
+    @media screen and (min-width:981px) and (max-width:1200px) {
+        #first{
+            display:flex;
+            width:60%;
+            gap:4%;
+            margin-left: 6.5%;
+            padding-top:3.5%;
+            font-size: 14px;
+            color:#a1bce6;
+            font-family: FONT-FAMILY
+            HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+        }
+        #second{
+            padding-top: 3.5%;
+            color:#a1bce6;
+            margin-left:6.5%;
+            font-size: 14px ;
+            text-align: right;
+            font-family: FONT-FAMILY
+            HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+        
+        }
+        #second>div>img{
+            width:127px;
+            height:37px;
+            
+            }
+            #second :nth-child(9)>a>img{
+                height:50px
+            }
+    }
+    
+    @media screen and (min-width:601px) and (max-width:980px) {
+        footer{
+            display:flex;
+           background-color:#0f346c;
+           padding-bottom: 10%;
+           margin-top: 20%;
+        }
+     
+        #first{
+            display:flex;
+            width:90%;
+            gap:5%;
+            margin-left: 6.5%;
+            padding-top:3.5%;
+            font-size: 14px;
+            color:#a1bce6;
+            font-family: FONT-FAMILY
+            HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+        }
+        #second{
+            /* padding-top: 3.5%;
+            color:#a1bce6;
+            margin-left:6.5%;
+            font-size: 14px ;
+            text-align: right;
+            font-family: FONT-FAMILY
+            HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif; */
+            display: none;
+        
+        }
+        #second>div>img{
+            width:127px;
+            height:37px;
+            
+            }
+            #second :nth-child(9)>a>img{
+                height:50px
+            }
+    
+            #merge{
+                margin-top:-8%;
+                font-size:16px;
+                line-height: 24px;
+                margin-left:6.5%;
+                color:white;
+                font-family: FONT-FAMILY
+                "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+            }
+            #span{
+                color:#a1bce6;
+            }
+    }
+    
+    @media screen and  (max-width:600px) {
+        footer{
+            display:flex;
+           background-color:#0f346c;
+           padding-bottom: 15%;
+           margin-top: 25%;
+        }
+        #first{
+            display:grid;
+            grid-template-columns: repeat(2,1fr);
+            width:90%;
+           
+            margin-left: 6.5%;
+            padding-top:3.5%;
+            font-size: 14px;
+            color:#a1bce6;
+            font-family: FONT-FAMILY
+            HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+        }
+        #second{
+            /* padding-top: 3.5%;
+            color:#a1bce6;
+            margin-left:6.5%;
+            font-size: 14px ;
+            text-align: right;
+            font-family: FONT-FAMILY
+            HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif; */
+            display: none;
+        
+        }
+        #second>div>img{
+            width:127px;
+            height:37px;
+            
+            }
+            #second :nth-child(9)>a>img{
+                height:50px
+            }
+    
+            #merge{
+               display: none;
+            }
+           
+    }
