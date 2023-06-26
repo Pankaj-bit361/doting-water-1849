@@ -2,31 +2,35 @@
     margin: 0px;
     text-align: center;
 }
-
 #main {
     display: flex;
     /* justify-content: space-evenly; */
     width:100%;
-    height:60px;
+   
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     background-color: white;
 }
 
-#head img {
-    width: 100%;
-    height: 43px;
+#img50{
+    width:100%
+}
 
+#img50>img{
+    width:70%
+}
+
+#unhide{
+    display: none;
 }
 
 #head {
     display: flex;
- 
-   
+
+   margin-left:5% ;
     width:100%;
-gap:1%;
-padding-left: 3%;
+justify-content: space-around;
 
 }
 
@@ -35,10 +39,10 @@ padding-left: 3%;
     text-decoration: none;
 }
 #head >a {
-    font-size: 14px;
+    font-size: 1vw;
     font-family: FONT-FAMILY
     "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
-    line-height: 26px;
+   line-height: 26px; 
   color: #6a6d75;
     margin-top:1%;
     width: 200%;
@@ -47,30 +51,176 @@ padding-left: 3%;
     margin-left:2%
 }
 
-.head-right {
+#head-right {
     display: flex;
-    gap: 0.5%;
-    padding-left:40%;
-    margin-right:4%;
+    gap: 5%;
+    padding-left:30%;
+    margin-right:10%;
 margin-top:0.5%;
 font-family: FONT-FAMILY
 "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
 }
-.head-right :nth-child(1)>p {
-color:#6a6d75
+#head-right :nth-child(1)>p {
+color:#6a6d75;
+font-size: 1vw;
 }
-.head-right :nth-child(2)>button {
+
+#head-right :nth-child(2)>button {
     background-color: #f26226;
     margin-left: 10%;
+  
  width:170%;
-    font-size: 14px;
+    font-size: 1vw;
     color: white;
    height:40px;
 border:none;
 font-family: FONT-FAMILY
 "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
 }
+@media screen and (max-width:1200px) {
 
+    .head-right :nth-child(1)>p {
+        color:#6a6d75;
+        font-size: 1.2vw;
+        }
+    .head-right :nth-child(2)>button {
+        background-color: #f26226;
+        margin-left: 10%;
+      
+     width:170%;
+        font-size: 1.2vw;
+        color: white;
+       height:32px;
+    border:none;
+    font-family: FONT-FAMILY
+    "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    }   
+
+    #head >a {
+        font-size: 1.2vw;
+       
+    }
+    
+}
+
+@media screen and (min-width:601px) and (max-width:900px) {
+
+
+
+    #head {
+        display: flex;
+        width:100%;
+    gap:70%
+    
+    }
+    #img50{
+        width:50%
+    }
+    
+    #img50>img{
+        width:75%
+    }
+    #unhide{
+        display: block;
+        width: 10%;
+    }
+    #unhide>i{
+        width: 100%;
+    }
+    .hide{
+        display: none;
+    }
+    .hide1{
+        display: none;
+    }
+
+    #head-right{
+        display: none;
+    }
+}
+@media screen and (max-width:600px) {
+
+
+
+    #head {
+        display: flex;
+        width:100%;
+    gap:70%
+    
+    }
+    #img50{
+        width:50%
+    }
+    
+    #img50>img{
+        width:100%
+    }
+    #unhide{
+        display: block;
+        width: 10%;
+    }
+    #unhide>i{
+        width: 100%;
+    }
+    .hide{
+        display: none;
+    }
+    .hide1{
+        display: none;
+    }
+
+    #head-right{
+        display: none;
+    }
+}
+
+#navsmall{
+ display: none;
+   margin-left:70%;
+    height: 90vh;
+    border:1px solid black;
+    font-size: 1rem;
+    font-weight: 400;
+    width:30%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+   
+}
+
+#navsmall1{
+color:black;
+margin-left: 5%;
+display:flex;
+justify-content: space-between;
+width:80%;
+}
+#navsmall1>div{
+    margin-top: 3%;
+}
+
+.shift{
+    margin-left: 5%;
+}
+#navsmall>button{
+width:90%;
+padding:3%;
+margin: auto;
+display: block;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 1rem;
+}
+#smallbtn1{
+    background-color: rgb(242,98,38);
+    color:white;
+    border: none;
+    
+}
+#smallbtn2{
+    background-color: white;
+   
+    color: #002684;
+    border: 1px solid gray;
+  
+}
 
 
 #big{

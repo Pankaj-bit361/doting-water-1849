@@ -1,29 +1,32 @@
-/* header starts */
-
 #main {
     display: flex;
     /* justify-content: space-evenly; */
     width:100%;
-    height:60px;
+   
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     background-color: white;
 }
 
-#head img {
-    width: 100%;
-    height: 43px;
+#img50{
+    width:100%
+}
 
+#img50>img{
+    width:70%
+}
+
+#unhide{
+    display: none;
 }
 
 #head {
     display: flex;
- 
-   
+
+   margin-left:5% ;
     width:100%;
-gap:1%;
-padding-left: 3%;
+justify-content: space-around;
 
 }
 
@@ -32,10 +35,10 @@ padding-left: 3%;
     text-decoration: none;
 }
 #head >a {
-    font-size: 14px;
+    font-size: 1vw;
     font-family: FONT-FAMILY
     "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
-    line-height: 26px;
+   line-height: 26px; 
   color: #6a6d75;
     margin-top:1%;
     width: 200%;
@@ -44,32 +47,178 @@ padding-left: 3%;
     margin-left:2%
 }
 
-.head-right {
+#head-right {
     display: flex;
-    gap: 0.5%;
-    padding-left:40%;
-    margin-right:4%;
+    gap: 5%;
+    padding-left:30%;
+    margin-right:10%;
 margin-top:0.5%;
 font-family: FONT-FAMILY
 "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
 }
-.head-right :nth-child(1)>p {
-color:#6a6d75
+#head-right :nth-child(1)>p {
+color:#6a6d75;
+font-size: 1vw;
 }
-.head-right :nth-child(2)>button {
+
+#head-right :nth-child(2)>button {
     background-color: #f26226;
     margin-left: 10%;
+  
  width:170%;
-    font-size: 14px;
+    font-size: 1vw;
     color: white;
    height:40px;
 border:none;
 font-family: FONT-FAMILY
 "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
 }
+@media screen and (max-width:1200px) {
+
+    .head-right :nth-child(1)>p {
+        color:#6a6d75;
+        font-size: 1.2vw;
+        }
+    .head-right :nth-child(2)>button {
+        background-color: #f26226;
+        margin-left: 10%;
+      
+     width:170%;
+        font-size: 1.2vw;
+        color: white;
+       height:32px;
+    border:none;
+    font-family: FONT-FAMILY
+    "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    }   
+
+    #head >a {
+        font-size: 1.2vw;
+       
+    }
+    
+}
+
+@media screen and (min-width:601px) and (max-width:900px) {
 
 
 
+    #head {
+        display: flex;
+        width:100%;
+    gap:70%
+    
+    }
+    #img50{
+        width:50%
+    }
+    
+    #img50>img{
+        width:75%
+    }
+    #unhide{
+        display: block;
+        width: 10%;
+    }
+    #unhide>i{
+        width: 100%;
+    }
+    .hide{
+        display: none;
+    }
+    .hide1{
+        display: none;
+    }
+
+    #head-right{
+        display: none;
+    }
+}
+@media screen and (max-width:600px) {
+
+
+
+    #head {
+        display: flex;
+        width:100%;
+    gap:70%
+    
+    }
+    #img50{
+        width:50%
+    }
+    
+    #img50>img{
+        width:100%
+    }
+    #unhide{
+        display: block;
+        width: 10%;
+    }
+    #unhide>i{
+        width: 100%;
+    }
+    .hide{
+        display: none;
+    }
+    .hide1{
+        display: none;
+    }
+
+    #head-right{
+        display: none;
+    }
+}
+
+#navsmall{
+ display: none;
+   margin-left:70%;
+    height: 90vh;
+    border:1px solid black;
+    font-size: 1rem;
+    font-weight: 400;
+    width:30%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+   
+}
+
+#navsmall1{
+color:black;
+margin-left: 5%;
+display:flex;
+justify-content: space-between;
+width:80%;
+}
+#navsmall1>div{
+    margin-top: 3%;
+}
+
+.shift{
+    margin-left: 5%;
+}
+#navsmall>button{
+width:90%;
+padding:3%;
+margin: auto;
+display: block;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 1rem;
+}
+#smallbtn1{
+    background-color: rgb(242,98,38);
+    color:white;
+    border: none;
+    
+}
+#smallbtn2{
+    background-color: white;
+   
+    color: #002684;
+    border: 1px solid gray;
+  
+}
+/* header ends */
+ 
 
 #mid>h1{
     font-size:58px;
@@ -149,6 +298,94 @@ hr{
         margin: auto;
     }
 
+
+    @media screen and (min-width:601px) and (max-width:900px) {
+        
+#mid>h1{
+    font-size:48px;
+    font-family: FONT-FAMILY
+"Chronicle Deck", Times, serif;
+color:#002c9b;
+ text-align: center;
+}
+#mid1{
+
+display: flex;
+justify-content: center;
+gap: 3%;
+
+}
+#mid1>p{
+    font-size: 12px;
+    line-height: 13px;
+    color:#002c9b;
+    letter-spacing: 1.85px;
+    font-weight: 900;
+  font-style:   FONT-FAMILY
+"Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+}
+#box{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#mid2{
+    
+display: flex;
+justify-content: center;
+gap: 5%;
+margin-right:2%;
+
+}
+#mid2>a{
+    text-decoration: none;
+}
+#mid2 div{
+    font-size: 16px;
+    line-height: 14px;
+    color:#002c9b;
+  
+    font-weight: 900;
+    font-family: FONT-FAMILY
+    "Chronicle Deck", Times, serif;
+
+    
+}
+#mid2 div:hover{
+    border: none;
+ border-bottom: 4px solid #002c9b;
+ 
+
+ /* border-color: #002c9b; */
+ cursor: pointer;
+}
+hr{
+ 
+ width: 85%;
+ height: 1px;
+ background-color: #002c9b;
+}
+
+
+
+    #mid3{
+        padding-top:3%;
+        width:60%;
+        font-size: 14px;
+        line-height: 20px;
+        font-family: FONT-FAMILY
+        HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+        color:#002c9b;
+        text-align: center;
+        margin: auto;
+       }
+
+    }
+
+
+
+
+
+
     #mid4{
         padding-top: 5%;
         font-size: 18px;
@@ -175,6 +412,120 @@ font-weight: bold;
         font-family: FONT-FAMILY
         "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
     }
+
+
+
+
+    @media screen and (max-width:600px) {
+        
+        #mid>h1{
+            font-size:38px;
+            font-family: FONT-FAMILY
+        "Chronicle Deck", Times, serif;
+        color:#002c9b;
+         text-align: center;
+        }
+        #mid1{
+        
+        display: flex;
+        justify-content: center;
+        gap: 2%;
+        
+        }
+        #mid1>p{
+            font-size: 10px;
+            line-height: 10px;
+            color:#002c9b;
+            letter-spacing: 1px;
+            font-weight: 900;
+          font-style:   FONT-FAMILY
+        "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+        }
+        #box{
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        }
+        
+        #mid2{
+            
+        display: flex;
+        justify-content: center;
+        gap: 4%;
+        margin-right:2%;
+        
+        }
+        #mid2>a{
+            text-decoration: none;
+        }
+        #mid2 div{
+            font-size: 10px;
+            line-height: 10px;
+            color:#002c9b;
+          
+            font-weight: 900;
+            font-family: FONT-FAMILY
+            "Chronicle Deck", Times, serif;
+        
+            
+        }
+        #mid2 div:hover{
+            border: none;
+         border-bottom: 4px solid #002c9b;
+         
+        
+         /* border-color: #002c9b; */
+         cursor: pointer;
+        }
+        hr{
+         
+         width: 95%;
+         height: 1px;
+         background-color: #002c9b;
+        }
+        
+        
+        
+            #mid3{
+                padding-top:3%;
+                width:70%;
+                font-size: 12px;
+                line-height: 20px;
+                font-family: FONT-FAMILY
+                HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+                color:#002c9b;
+                text-align: center;
+                margin: auto;
+               }
+
+               #mid4{
+                padding-top: 5%;
+                font-size: 14px;
+                display: flex;
+                justify-content: space-between;
+                width:93%;
+                margin:auto;
+                
+            }
+            #mid4 >p{
+        color:#002684;
+        letter-spacing: 2.86px;
+        font-weight: bold;
+        
+            }
+            #mid4 >button{
+                width: 20%;
+                height: 40px;
+                color: white;
+                background-color:#002684;
+                border-radius: 25px;
+                font-size: 12px;
+                border:none;
+                font-family: FONT-FAMILY
+                "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+            }
+        
+            }
+        
+
     #mid5{
         padding-top:40px;
         display: grid;
@@ -184,6 +535,12 @@ font-weight: bold;
         gap:20px;
       
     }
+
+
+
+
+
+
     #mid5>div{
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 width:100%;
@@ -222,6 +579,16 @@ margin-left :10px;
     padding-top:20px
 
 }
+
+
+
+
+
+
+
+
+
+
 #build{
     display:flex;
     width:70%;
@@ -315,6 +682,107 @@ border-radius: 10px;
         line-height: 30px;
         margin-left:50%
     }
+
+
+
+@media screen and (max-width:600px){
+    
+#build{
+    display:flex;
+    width:90%;
+    margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    border-radius: 10px;
+  
+}
+#build1{
+    display: flex;
+    gap:20%
+}
+#wow{
+    width:50%;
+margin-left:5%
+}
+#wow3{
+    display: flex;
+    margin:auto;
+    
+   
+}
+
+#wow4{
+    display: flex;
+    gap:10%;
+    
+}
+#wow :nth-child(2){
+    width:75%;
+    color:#6a6d75;
+    font-size: 16px;
+    line-height: 16px;
+}
+#wow :nth-child(1){
+    color:#002684
+}
+#p1{
+    color:black;
+    font-size: 17px;
+}
+#p2{
+    color:black;
+    font-size: 17px;
+}
+#build1>div :nth-child(2){
+    font-size: 12px;
+}
+#wow3{
+    margin-top: 10%;
+    gap:10%
+}
+#wow3 p{
+color:#6a6d75;
+font-size: 14px;
+}
+#wow4 p{
+    color:#6a6d75;
+    font-size: 14px;
+    }
+    #left{
+    
+      width:40%
+    }
+    #b3>button{
+        margin-top:10%;
+width:50px;
+color:blue;
+border: none;
+border-radius: 10px;
+line-height: 18px;
+    }
+    #b2>button{
+        margin-top:6%;
+width:50px;
+color:blue;
+line-height: 18px;
+border: none;
+border-radius: 10px;
+    }
+    
+    #CONT>button{
+        border:none;
+        margin-top:8%;
+        border-radius: 13px;
+        font-size: 10px;
+        color:white;
+        background-color: #00a0df;
+        width:50%;
+        line-height: 15px;
+        margin-left:50%
+    }
+}
+
+
 
     #mid7{
         padding-top: 5%;
@@ -554,6 +1022,87 @@ padding-top:20px
 
 }
 
+@media screen and (max-width:600px){
+    #mid6{
+        padding-top: 5%;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        width:93%;
+        margin:auto;
+        
+    }
+    #mid6 >p{
+color:#002684;
+letter-spacing: 2.86px;
+font-weight: bold;
+
+    }
+    #mid6 >button{
+        width: 20%;
+        height: 40px;
+        color: white;
+        background-color:#002684;
+        border-radius: 25px;
+        font-size: 12px;
+        border:none;
+        font-family: FONT-FAMILY
+        "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    }
+    #mid10{
+        padding-top: 5%;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        width:93%;
+        margin:auto;
+        
+    }
+    #mid10 >p{
+color:#002684;
+letter-spacing: 2.86px;
+font-weight: bold;
+
+    }
+    #mid10 >button{
+        width: 20%;
+        height: 40px;
+        color: white;
+        background-color:#002684;
+        border-radius: 25px;
+        font-size: 12px;
+        border:none;
+        font-family: FONT-FAMILY
+        "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    }
+    #mid13{
+        padding-top: 5%;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        width:93%;
+        margin:auto;
+        
+    }
+    #mid13 >p{
+color:#002684;
+letter-spacing: 2.86px;
+font-weight: bold;
+
+    }
+    #mid13 >button{
+        width: 20%;
+        height: 40px;
+        color: white;
+        background-color:#002684;
+        border-radius: 25px;
+        font-size: 12px;
+        border:none;
+        font-family: FONT-FAMILY
+        "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    }
+            
+}
 
 @media only screen and (max-width: 600px){
     #mid5{
@@ -593,8 +1142,8 @@ padding-top:20px
 footer{
     display:flex;
    background-color:#0f346c;
-   padding-bottom: 100px;
-   margin-top:5%
+   padding-bottom: 7%;
+   margin-top: 4%;
 }
 #first{
     display:flex;
@@ -622,6 +1171,9 @@ footer{
     height:37px;
     
     }
+    #second :nth-child(9)>a>img{
+        height:50px
+    }
 #merge{
     margin-top:-5%;
     font-size:16px;
@@ -633,4 +1185,134 @@ footer{
 }
 #span{
     color:#a1bce6;
+}
+
+@media screen and (min-width:901px) and (max-width:1200px) {
+    #first{
+        display:flex;
+        width:60%;
+        gap:4%;
+        margin-left: 6.5%;
+        padding-top:3.5%;
+        font-size: 14px;
+        color:#a1bce6;
+        font-family: FONT-FAMILY
+        HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    }
+    #second{
+        padding-top: 3.5%;
+        color:#a1bce6;
+        margin-left:6.5%;
+        font-size: 14px ;
+        text-align: right;
+        font-family: FONT-FAMILY
+        HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    
+    }
+    #second>div>img{
+        width:127px;
+        height:37px;
+        
+        }
+        #second :nth-child(9)>a>img{
+            height:50px
+        }
+}
+
+@media screen and (min-width:601px) and (max-width:900px) {
+    footer{
+        display:flex;
+       background-color:#0f346c;
+       padding-bottom: 10%;
+       margin-top: 4%;
+    }
+ 
+    #first{
+        display:flex;
+        width:90%;
+        gap:5%;
+        margin-left: 6.5%;
+        padding-top:3.5%;
+        font-size: 14px;
+        color:#a1bce6;
+        font-family: FONT-FAMILY
+        HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    }
+    #second{
+        /* padding-top: 3.5%;
+        color:#a1bce6;
+        margin-left:6.5%;
+        font-size: 14px ;
+        text-align: right;
+        font-family: FONT-FAMILY
+        HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif; */
+        display: none;
+    
+    }
+    #second>div>img{
+        width:127px;
+        height:37px;
+        
+        }
+        #second :nth-child(9)>a>img{
+            height:50px
+        }
+
+        #merge{
+            margin-top:-8%;
+            font-size:16px;
+            line-height: 24px;
+            margin-left:6.5%;
+            color:white;
+            font-family: FONT-FAMILY
+            "Cera Pro", HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+        }
+        #span{
+            color:#a1bce6;
+        }
+}
+
+@media screen and  (max-width:600px) {
+    footer{
+        display:flex;
+       background-color:#0f346c;
+       padding-bottom: 15%;
+       margin-top: 4%;
+    }
+    #first{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        width:90%;
+       
+        margin-left: 6.5%;
+        padding-top:3.5%;
+        font-size: 14px;
+        color:#a1bce6;
+        font-family: FONT-FAMILY
+        HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+    }
+    #second{
+        /* padding-top: 3.5%;
+        color:#a1bce6;
+        margin-left:6.5%;
+        font-size: 14px ;
+        text-align: right;
+        font-family: FONT-FAMILY
+        HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", TeXGyreHerosRegular, Helvetica, Tahoma, Geneva, Arial, sans-serif; */
+        display: none;
+    
+    }
+    #second>div>img{
+        width:127px;
+        height:37px;
+        
+        }
+        #second :nth-child(9)>a>img{
+            height:50px
+        }
+
+        #merge{
+           display: none;
+        }
+       
 }

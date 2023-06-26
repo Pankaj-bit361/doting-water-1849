@@ -105,7 +105,7 @@ font-family: FONT-FAMILY
     
 }
 
-@media screen and (min-width-601) and (max-width:900px) {
+@media screen and (min-width:601px) and (max-width:900px) {
 
 
 
