@@ -501,10 +501,16 @@
                 let time1 = document.createElement("p")
                 time1.innerText = element.time
                 card1.addEventListener("click", () => {
-                    menu.push(element)
+                   
                     window.location.pathname = "itemdescription.html"
+                    menu.name=element.name
+                    menu.image=element.image
+                    menu.description=element.description
+                    menu.time=element.time
+                    menu.price=element.price
+                    menu.details=element.details
+                    console.log(menu)
                     localStorage.setItem("menu", JSON.stringify(menu))
-
                 })
                 card1.append(image1, name1, description1, time1)
                 container2.append(card1)
@@ -537,8 +543,15 @@
                 let time2 = document.createElement("p")
                 time2.innerText = element.time
                 card2.addEventListener("click", () => {
-                    menu.push(element)
+                   
                     window.location.pathname = "itemdescription.html"
+                    menu.name=element.name
+                    menu.image=element.image
+                    menu.description=element.description
+                    menu.time=element.time
+                    menu.price=element.price
+                    menu.details=element.details
+                    console.log(menu)
                     localStorage.setItem("menu", JSON.stringify(menu))
                 })
                 card2.append(image2, name2, description2, time2)
@@ -572,8 +585,15 @@
                 let time3 = document.createElement("p")
                 time3.innerText = element.time
                 card3.addEventListener("click", () => {
-                    menu.push(element)
+                   
                     window.location.pathname = "itemdescription.html"
+                    menu.name=element.name
+                    menu.image=element.image
+                    menu.description=element.description
+                    menu.time=element.time
+                    menu.price=element.price
+                    menu.details=element.details
+                    console.log(menu)
                     localStorage.setItem("menu", JSON.stringify(menu))
                 })
                 card3.append(image3, name3, description3, time3)

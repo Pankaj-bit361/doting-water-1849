@@ -365,12 +365,12 @@ font-family: FONT-FAMILY
         gap:5%;
         width:90%;
         margin:auto;
-        padding-bottom: 20%;
+        /* padding-bottom: 10%; */
 
     } 
     #con :nth-child(1)>img{
-        width:100%
-        
+        width:100%;
+        height:38vh
         }
         
         #con :nth-child(2)>h1{

@@ -292,7 +292,7 @@
     let container = document.getElementById("mid5")
     let container2 = document.getElementById("mid8")
     let container4 = document.getElementById("mid14")
-    let menu = JSON.parse(localStorage.getItem("menu")) || []
+    let menu = JSON.parse(localStorage.getItem("menu")) || {}
 
     let button1=document.getElementById("btn-1")
 let button2=document.getElementById("btn-2")
@@ -441,9 +441,14 @@ button2.addEventListener("click",()=>{
                 if (already == true) {
 
                 } else {
-                    menu.push(element)
+                    menu.name=element.name
+                    menu.image=element.image
+                    menu.description=element.description
+                    menu.time=element.time
+                    menu.price=element.price
+                    menu.details=element.details
+                    console.log(menu)
                     localStorage.setItem("menu", JSON.stringify(menu))
-
                 }
             })
             card.append(image, name, description, time)
@@ -487,8 +492,14 @@ button2.addEventListener("click",()=>{
                     if (already == true) {
 
                     } else {
-                        menu.push(element)
-                        localStorage.setItem("menu", JSON.stringify(menu))
+                        menu.name=element.name
+                    menu.image=element.image
+                    menu.description=element.description
+                    menu.time=element.time
+                    menu.price=element.price
+                    menu.details=element.details
+                    console.log(menu)
+                    localStorage.setItem("menu", JSON.stringify(menu))
 
                     }
                 })
@@ -535,8 +546,15 @@ button2.addEventListener("click",()=>{
                     if (already == true) {
 
                     } else {
-                        menu.push(element)
-                        localStorage.setItem("menu", JSON.stringify(menu))
+                        menu.name=element.name
+                    menu.image=element.image
+                    menu.description=element.description
+                    menu.time=element.time
+                    menu.price=element.price
+                    menu.details=element.details
+                    console.log(menu)
+                    localStorage.setItem("menu", JSON.stringify(menu))
+                      
 
                     }
                 })
@@ -583,8 +601,14 @@ button2.addEventListener("click",()=>{
                     if (already == true) {
 
                     } else {
-                        menu.push(element)
-                        localStorage.setItem("menu", JSON.stringify(menu))
+                        menu.name=element.name
+                    menu.image=element.image
+                    menu.description=element.description
+                    menu.time=element.time
+                    menu.price=element.price
+                    menu.details=element.details
+                    console.log(menu)
+                    localStorage.setItem("menu", JSON.stringify(menu))
 
                     }
                 })
